@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.p1{
+    background-color: black;
+    width: 50%;
+    float: left;
+    height: 700px;
+    overflow: hidden;
+}
+.p2{
+    background-color: orange;
+    width: 50%;
+    float: right;
+    height: 700px;
+    overflow: hidden;
+    transform: rotateX(180);
+}
+.m1{
+    background-color: purple;
+    text-align: center;
+    padding-top: 100px;
+    height: 200px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    width: 30%;
+    margin-left: 454px;
+    margin-top: 250px;
+
+}
+.m2{
+    background-color: purple;
+    text-align: center;
+    padding-top: 100px;
+    height: 200px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+    width: 30%;
+    margin-left: 0px;
+    margin-top: 250px;
+
+}
+.p1 :hover{
+    transform: scale(1.4);
+    transition: all 1s linear;
+    border-radius: 50%;
+    
+}
+.p2 :hover{
+    transform: scale(1.4);
+    transition: all 1s linear;
+    border-radius: 50%;
+}

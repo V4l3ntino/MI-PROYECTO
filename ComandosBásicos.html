@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ComandosBásicos.css">
+</head>
+<body>
+    <p>
+        Bueno para abrir la terminal podemos presionar la combinación de teclas Cntr+Alt+T.
+        También podemos buscarlo desde el menú pulsando la tecla Windows y escribiendo "terminal"
+        En la terminal podemos hacer lo mismo e incluso más de lo que podemos hacer desde la interfaz
+        gráfica del sistema.
+        Acontinuación voy a seguir una lista con todos los comandos y explicando para que sirve cada uno. Tenemos que tener cuidado
+        con las minúsculas y mayúsculas porque linux es sensible a esto, es decir que si ponemos el mismo comando pero lo escribimos todo
+        en mayúsculas pues no será capaz de interpretar ese comando. ¡Todos los camandos que escriba a continuación se tienen que escribir en minúsculas!
+
+        <ol>
+            <li>Mkdir
+                <ul>
+                    <li>Con mkdir podemos crear una carpeta, solo tendríamos que poner "mkdir" seguidamente del nombre
+                        que queramos ponerle a la carpeta.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                CD
+                <ul>
+                    <li>
+                        Con "cd" podemos movernos entre distintos directorios, los directorios son las carpetas que hay dentro
+                        de nuestro sistema operativo, por defecto el sistema tiene una serie de carpetas importantes donde 
+                        se encuentran todos los archivos importantes para su correct funcionamiento, entre esas carpetas se encuentran
+                        una con el nombre de nuestro usuario y es en esa donde se guardan todos nuestros datos. 
+                        Cuando nos movemos entre directorios (carpetas) lo que hacemos es entrar o salir de una carpeta. Esas carpetas 
+                        se encuentran dentro de otras carpetas, por lo que para movernos a una carpeta en concreto debemos saber cuál es la "Ruta".
+                        Y la ruta sería todas esas carpetas a las que tendremos que acceder para llegar hasta la carpeta que nos interesa.
+                        La Ruta puede ser Absoluta o Relativa, la diferencia es que en la Absoluta tendremos que escribir todas las carpetas que hay desde el inicio
+                        hasta el final de nuestro destino, mientras que una ruta relativa es cuando le indicamos al sistema que nos movemos desde el punto donde nos encontramos
+                        por ejemplo:
+                        <ol>
+                            <li>
+                                Ruta Absoluta: si creamos una carpeta en el escritorio y queremos entrar debemos poner la siguiente ruta:
+                                <ul>
+                                    <li>
+                                        cd /home/usuario/Desktop/carpetaNueva
+                                    </li>
+                                </ul>
+                                <p>Según como tengamos configurado el idioma del sistema tendremos que poner Desktop o Escritorio. Cuando pongo
+                                    carpetaNueva hago referencia a esa carpeta que hemos creado y cuando pongo usuario hago referencia al nombre de 
+                                    mi cuenta, si tu por ejemplo te llamas Pepe tendrías que poner:
+                                    <ul>
+                                        <li>
+                                            cd /home/Pepe/Desktop/carpetaNueva
+                                        </li>
+                                    </ul>
+                                </p>
+                            </li>
+                            <li>
+                                Ruta relativa: la ruta relativa en este caso nos sería más cómodo porque solo tendríamos que poner:
+                                
+                                <ul>
+                                    <li>
+                                        cd ca 
+                                    </li>
+                                </ul>
+
+                            </li>
+                        </ol>
+
+
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        
+    </p>
+</body>
+</html>

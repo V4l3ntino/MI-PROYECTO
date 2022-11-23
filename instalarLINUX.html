@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +13,42 @@
         una máquina virtual emula todos sus componentes de forma que no tiene por qué corresponderse con el hardware físico que tienes. Lo malo de esto es
         que el sistema no puede funcionar igual de bien ya que no tiene acceso directo al hardware mientras que una máquina real aprovecha mejor todos los recursos
         de todos los componenetes del ordenador, esto permite darle más fluidez y puede funcionar mejor de lo que sería en una máquina virtual.
+        Pero si tienes un ordenador potente pues alomejor no se nota demasiado la diferencia, por eso mismo cada uno ya elige lo que mejor le convenga.
+    </p>
 
-        
+    <p> 
+        Para ambos casos necesitaremos la iso del sistema operativo, en nuestro caso tendremos que instalar la iso de ubuntus que la podremos encontrar fácilmente
+        en la propia página web de ubuntus. A diferencia de windows, ubuntus y todos los "sabores" de sistemas linux son siempre gratuitos para el público.
+    </p>
+    <p>
+        Ahora voy explicar los pasos necesarios para cada caso:
+    </p>
+    <!--Máquina virtual-->
+    <p> 
+        Yo tengo pensado hacerlo desde virtualbox, lo primero que vamos hacer es crear la máquina asignándole el nombre, la capacidad de almacenamiento y de memoria RAM que queramos
+        que tenga nuestro sistema operativo. Debemos tener cuidado con la cantidad de memoria RAM que le asignamos a la máquina porque nuestro sistema propio sistema operativo
+        también necesita un mínimo para poder funcionar. En el caso de que le asignemos demasiada RAM nuestro sistema principal no tendría donde cargarse y entonces nos petaría el 
+        ordenador y tendríamos que reiniciarlo.
+    </p>
+    <!--Instalar linux en VirtualBox-->
+    <p>
+        Para instalar linux solo tendríamos que darle todo a siguiente hasta que nos pregunte por nuestro nombre de usuario y por la contraseña, lo demás sería esperar hasta que se termine 
+        de instalarse. Esto solo se puede hacer en este caso, porque tenemos hecha una máquina virtual dedicada solo para linux, en caso de que lo hagamos en una máquina real donde tenemos instalado
+        windows deberíamos hacerlo más prudentes porque podríamos cargarnos windows en instalación y perderíamos todos los datos que tuvieramos almacenados.
+
+    </p>
+    <!--Instalar linux en máquina real-->
+    <p>
+        Para instalar linux en una máquina real debemos tener primero un usb booteado con la iso del sistema operativo.
+        Os recomiendo utilizar Rufus que es con el que yo he usado siempre y nunca me ha dado problemas.
+        Luego deberíamos tocar la configuración de la BIOS para que al arrancar el ordenador primero lo haga desde el usb.
+        Una vez hecho esto arrancamos y elegimos la primera opción que nos sale para la instalación.
+        Después tendrémos que elegir el idioma que queramos para el sistema, en nuestro caso español. Luego nos pide la distribución de teclado, también escogemos el Español.
+        Luego nos pedirá donde se queremos hacer la instalación, si tenemos windows instalado, linux lo reconocerá y nos saldrá una opción adicional que nos diga "Instalar linux junto a Windows"
+        podemos darle a ese y el sistema se instalará por defecto en la partición libre que le hallamos asignado.
+        También podemos escoger la última opción que nos permitiría crear nuestra propia tabla de particiones donde nosotros mismos podremos organizar la tabla de particiones, lo ideal sería tener una partición 
+        reservada solo para los datos y otra para la instalación del sistema operativo. Así si tubieramos que cambiar de sistema operativo podríamos hacerlo
+        sobre esa misma partición sin tener que perder los datos.
     </p>
 </body>
 </html>

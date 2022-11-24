@@ -2,12 +2,12 @@
     box-sizing:border-box;
     margin: 0px;
 }
-.ext{
+header, footer{
     background-color: black;
     height: 50px;
 }
 .separador{
-    height: 1000px;
+    height: 100%;
 }
 .menuV{
     margin-left: 65%;
@@ -31,8 +31,8 @@
 }
 .cuadro{
     background-color: black;
-    position: absolute;
-    width: 30%;
+    position: relative;
+    width: 40em;
     height: 65%;
     margin-top: 10%;
     margin-left: 10%;
@@ -42,7 +42,47 @@
 }
 .cuadro p{
     
-    margin-top: 10%;
+    margin-top: 10%;   
+}
+.sup{
+    position: relative;
+}
+footer{
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    position: fixed;
     
-    
+}
+@media screen and (max-width: 768px){
+    .cuadro {
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 30em;
+        margin-top: auto;
+        margin-left: auto;
+        color: white;
+        padding-bottom: 0em;
+    }
+    .menuV{
+        margin-left: 0%;
+        margin-top: 0%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        
+    }
+    .menuV a{
+    background-color: black;
+    text-decoration: none;
+    padding: 0px;
+    width: 33.333333333%;
+    color: white;
+    margin-top: 0px;
+    padding-left: 0px;
+    border: purple double 5px;
+    float: left;}
+    .separador{
+    height: 100%;}
 }

@@ -11,7 +11,7 @@
           .texto{
             width: 70%;
             margin: 5em 0em 5em auto;
-            border: solid 5px orange;
+            border: solid 5px #847152;
             height: fit-content;
           }
             .texto p{
@@ -35,7 +35,23 @@
               background-attachment: fixed;
               
             }
-    
+            #mySidenav a {
+            position: absolute; /* Position them relative to the browser window */
+            left: -113px; /* Position them outside of the screen */
+            transition: 0.3s; /* Add transition on hover */
+            padding: 15px; /* 15px padding */
+            width: 180px; /* Set a specific width */
+            text-decoration: none; /* Remove underline */
+            font-size: 20px; /* Increase font size */
+            color: white; /* White text color */
+            border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+          }
+          #mySidenav a:hover {
+            left: -10px; /* On mouse-over, make the elements appear as they should */
+            width: 120px;
+          }
+          
+  
   
         }
         @media screen and (min-width: 800px){
@@ -93,11 +109,12 @@ window.onscroll = function() {
         
     </div>
     <div id="mySidenav" class="sidenav">
-        <a href="#" id="about">About</a>
-        <a href="#" id="blog">Blog</a>
-        <a href="#" id="projects">Projects</a>
+        <a href="#" id="about">Linux</a>
+        <a href="#" id="blog">HTML</a>
+        <a href="#" id="projects">Seguridad</a>
         <a href="#" id="contact">Contact</a>
       </div>
+      
       <div class="texto">
         <p>
             Bienvenidos a mi proyecto, esta es mi primera página web. Aquí tengo pensado publicar información acerca

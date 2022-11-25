@@ -38,12 +38,12 @@
 
   .texto{
     width: 70%;
-    margin: 5em auto auto auto;
+    margin: 5em auto 5em auto;
     border: solid 5px orange;
-    height: 40em;
+    height: fit-content;
   }
   .texto p{
-    font-size: 18px;
+    font-size: 30px;
     padding: 5em;
   }
   #navbar {
@@ -59,11 +59,13 @@
   /* Style the navbar links */
   #navbar a {
     float: left;
-    display: block;
+    width: 100%;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 1em;
     text-decoration: none;
+    font-size: 30px;
+    
   }
   
   #navbar a:hover {

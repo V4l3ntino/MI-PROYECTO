@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./pruebaMEDIA.css">
+    <link rel="stylesheet" href="./index2.css">
     <style>
         @media screen and (max-width: 800px){
             .texto{
@@ -17,7 +17,16 @@
             }
             .texto p{
                 font-size: 18px;
+                padding: 1em;}
+                #navbar a {
+                float: left;
+                width: 100%;
+                color: white;
+                text-align: center;
                 padding: 1em;
+                text-decoration: none;
+                font-size: 20px;
+    
   }
         }
     </style>
@@ -28,7 +37,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navbar").style.top = "0";
   } else {
-    document.getElementById("navbar").style.top = "-50px";
+    document.getElementById("navbar").style.top = "-100px";
   }
   prevScrollpos = currentScrollPos;
 }

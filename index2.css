@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
 /* Style the links inside the sidenav */
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
@@ -39,8 +44,10 @@
   .texto{
     width: 70%;
     margin: 5em auto 5em auto;
-    border: solid 5px orange;
+    border: solid 5px #847152;
     height: fit-content;
+    background-color: #0D0E11;
+    opacity: 0.9;
   }
   .texto p{
     font-size: 30px;

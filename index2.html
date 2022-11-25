@@ -15,8 +15,8 @@
             height: fit-content;
           }
             .texto p{
-                font-size: 10px;
-                padding: 1.5em;
+                font-size: 18px;
+                padding: 1em;
                 color: white;
               }
                 #navbar a {
@@ -38,8 +38,43 @@
     
   
         }
+        @media screen and (min-width: 800px){
+          #mySidenav a {width: 200px;}
+          .texto{
+            width: 70%;
+            margin: 10em auto auto auto;
+            border: solid 5px #847152;
+            height: fit-content;
+            background-color: #0D0E11;
+            opacity: 0.9;
+          }
+            .texto p{
+                font-size: 40px;
+                padding: 1.5em;
+                color: white;
+              }
+                #navbar a {
+                float: left;
+                width: 100%;
+                color: white;
+                text-align: center; 
+                padding: 1em;
+                text-decoration: none;
+                font-size: 30px;
+              }
+              body{
+              background-image: url(./img/abs1.jpg);
+              background-position-x: center;
+              background-size: cover;
+              background-attachment: fixed;
+              height: 80em;
+              
+            }
+    
+  
+        }
     </style>
-    <script>
+    <script>  
         var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -67,7 +102,7 @@ window.onscroll = function() {
         <p>
             Bienvenidos a mi proyecto, esta es mi primera página web. Aquí tengo pensado publicar información acerca
                 de todo lo relacionado con la informática.
-                Solo voy a hablar sobre tres temas en concreto pero quizás luego valla ampliando el contenido
+                Ahora solo voy a hablar sobre tres temas en concreto pero quizás luego valla ampliando el contenido
                 </br>
                 </br>
                 Primero voy a dar una pequeña introducción a todas aquellas personas que quieran empezar desde cero en
@@ -85,6 +120,9 @@ window.onscroll = function() {
                 ataque que existen para robarte la información.
                 Daré todos un par de consejos para identificar este tipo de ataques y como debemos actuar para así
                 mejorar nuestra seguriad.
+              </br>
+              </br>
+                Por ahora voy a dar estos tres puntos pero quizá en un futuro valla ampliando el contenido sobre otros temas.
         </p>
       </div>
 </body>

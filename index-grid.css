@@ -21,16 +21,17 @@
   .viewport-header h4{
     font-size: 19px;
     text-align: center;
-    color: black;
+    color: rgb(226, 221, 221);
+    text-shadow: 10px 10px 10px black;
   }
   .viewport-header h1{
     text-align: center;
-    color: black;
+    color: rgb(226, 221, 221);
+    text-shadow: 10px 10px 10px black;
   }
   .contenedor{
     width: 100%;
     height: 15em;
-    background-color: black;
     position: fixed;
 
   }
@@ -62,16 +63,23 @@
     grid-gap: 10em;
 
 }
+.grid :hover{
+    transform: scale(0.9);
+    border-radius: 15%;
+    transition: all 1.5s ease;
+    border: solid 5px white;
+    
+}
+
 
 .fotos{
     margin: auto;
-    background-color: purple;
     width: 90%;
     height: 35em;
     border-radius: 50%;
-    border: solid 5px orange;
-    
+    border: solid 5px black;
 }
+
 .foto1{
     background-image: url(./img/instlinux.gif);
     background-position: center center;
@@ -83,7 +91,9 @@
     
 }
 .foto3{
-
+    background-image: url(./img/html-intro.gif);
+    background-position: center center ;
+    background-size: cover;
 }
 .foto4{
     background-image: url(./img/cyber.gif);

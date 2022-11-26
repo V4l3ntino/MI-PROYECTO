@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+#bgvid {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .viewport-header {
+    color: white;
+    justify-content: center;
+    position: absolute;
+    font-size: 40px;
+    width: 80%;
+    margin: 5% 10% 5% 10%; 
+  }
+  .viewport-header h4{
+    font-size: 19px;
+    text-align: center;
+  }
+  .viewport-header h1{
+    text-align: center;
+  }
+  .contenedor{
+    width: 100%;
+    height: 15em;
+    background-color: black;
+    position: fixed;
+
+  }
+ 
+.contenedor2{
+    background-image: url(/img/triangle.webp);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
+    position: absolute;
+    margin: 15em auto auto auto;
+    width: 100%;
+    height: fit-content;
+    padding: 0em;
+    
+}
+.grid{
+    padding: 4em;
+    width: 80%;
+    margin: 0em auto 5em auto;
+    background-image: url(./img/bola3.gif);
+    background-position: center center;
+    background-attachment: fixed;
+    border: solid black 10px;
+    border-radius: 10px;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-gap: 10em;
+
+}
+
+.fotos{
+    margin: auto;
+    background-color: purple;
+    width: 90%;
+    height: 35em;
+    border-radius: 50%;
+    border: solid 5px orange;
+    
+}
+.foto1{
+    background-image: url(./img/instlinux.gif);
+    background-position: center center;
+}
+.foto2{
+    background-image: url(./img/comando3.gif);
+    background-position: center center ;
+    background-size: cover;
+    
+}
+.foto3{
+
+}
+body{
+    background-color: #181A1B;
+    height: fit-content;
+}

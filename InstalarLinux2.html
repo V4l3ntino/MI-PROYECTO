@@ -7,9 +7,8 @@
     <title>Instalar Linux</title>
     <link rel="stylesheet" href="./InstalarLinux.css">
     <style>
-     @media screen and (max-width: 800px){
-         
-      .content {
+    @media screen and (max-width: 1000px) {
+         .content {
   position: absolute;
   top: 0;
   background: rgba(0, 0, 0, 0.5);
@@ -18,6 +17,10 @@
   padding: 30px;
   text-shadow: 5px 5px 10px black;
   height: fit-content;
+}
+img{
+    margin-top: 10vh;
+    width: 30em;
 }
 .content p{
   width: 100%;
@@ -73,18 +76,56 @@
   position: relative;
 }
      }
-     @media screen and (min-width: 800px){
+     
+    
+     @media screen and (max-width: 400px){
+         
       .content {
   position: absolute;
   top: 0;
   background: rgba(0, 0, 0, 0.5);
   color:  rgb(201, 201, 201);
   width: 100%;
-  padding: 50px;
+  padding: 30px;
   text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-top: 10vh;
+    width: 18em;
+}
+.content p{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 15px;
+}
+.content h1{
+  font-size: 25px;
+  
+}
+.caja{
+  width: 40%;
+  
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  margin-top: 10%;
 }
 .myBtn {
-  width: 200px;
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+
+}
+.myBtn2 {
+  width: 90px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -95,15 +136,19 @@
  position: relative;
  
 }
-.caja{
-  width: 30%;
-  margin-left: 0%;
-  margin-top: 20%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 8em;
+#myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
 }
      }
+
       
       
      @media screen and (min-width: 1280px){
@@ -131,6 +176,11 @@
   padding: 50px;
   text-shadow: 5px 5px 10px black;
   height: fit-content;
+}
+img{
+    margin-left: 10%;
+    width: 65em;
+    margin-top: 7vh;
 }
 .content p{
   width: 80%;
@@ -232,20 +282,29 @@
         Para ambos casos necesitaremos la iso del sistema operativo que vallamos a instalar, la iso es un tipo de archivo que se utiliza para almacenar una copia exacta de un sistema de ficheros de una unidad óptica. En nuestro caso tendremos que instalar la iso de <a style="text-decoration: solid; color: purple; font-size: 19px; " href="https://ubuntu.com/download"><span style="font-weight: bold;">ubuntus</span></a> que la podremos encontrar fácilmente
         en la propia página web de ubuntus. A diferencia de windows, ubuntus y todos los "sabores" de sistemas linux son siempre gratuitos para el público.
     </p>
+    <img src="./img/virtualbox/cap4.png" alt="No se pudo cargar la imgen">
     
     <!--Máquina virtual-->
     <p> 
-        Por ahora solo tengo pensado explicarlo desde virtualbox, pero no descarto que en un futuro explique también como hacerlo desde una máquina real. Lo primero que vamos hacer es crear la máquina asignándole el nombre, la capacidad de almacenamiento y la memoria RAM que queramos
-        que tenga nuestro sistema operativo. Debemos tener cuidado con la cantidad de memoria RAM que le asignamos a la máquina porque nuestro propio sistema operativo
-        también necesita un mínimo para poder funcionar. En el caso de que le asignemos demasiada RAM nos petaría el ordenador.
+        Por ahora solo tengo pensado explicar detalladamente desde virtualbox, también diré como hacerlo en una máquina real pero solo me limitaré a explicarlo con mis palabras, quizás en un futuro lo haga igual de detallado que con virtualbox . </br> Lo primero que vamos hacer es crear la máquina asignándole el nombre, la capacidad de almacenamiento y la memoria RAM que queramos
+        que tenga nuestro sistema operativo. Ubuntus puede funcionar con 348 MB de ram pero recomiendo que mejor le pongais más de 1 giga para que funcione mejor. Debemos tener cuidado con la cantidad de memoria RAM que le asignamos a la máquina porque nuestro propio sistema operativo
+        también necesita un mínimo para poder funcionar. En el caso de que le asignemos demasiada RAM nos petaría el ordenador. 
     </p>
+    <img src="./img/virtualbox/cap1.png" alt="No se pudo cargar la imagen">
     <!--Instalar linux en VirtualBox-->
+    <p>Yo le voy a poner 2 GB que ya va bien con eso, si os dais cuenta cuando ponemos el nombre del sistema operativo, virtualbox reconoce automáticamente el tipo de sistema que queremos instalar.
+        Luego nos pide el tamaño del disco duro que queramos asignarle. Podemos reservar el tamaño de memoria dinámicamente o fijo, dinámicamente es cuando el disco no coge directamente todos los gigas que le has puesto sino que toma una parte de la memoria y cuando vallamos guardando más datos 
+        va ir cogiendo más espacio del disco a partir de un máximo que le hallamos puesto, de esta manera la máquina no te quita todos los gigas de golpe sin embargo este proceso va ralentizar el funcionamiento de la máquina porque constantemente va estar recalculando el espacio en memoria que tiene que coger.
+        Si lo reservamos como fijo la máquina coge directamente todos los gigas que le hallamos asignado, esto le da más rapidez a la hora de almacenar y extraer datos. 
+    </p>
+    <img src="/img/virtualbox/cap2.png" alt="No se pudo cargar la imagen">
     <p>
         Para instalar linux solo tendríamos que darle todo a siguiente hasta que nos pregunte por nuestro nombre de usuario y por la contraseña, lo demás sería esperar hasta que se termine 
         de instalarse. Esto solo se puede hacer en este caso, porque tenemos hecha una máquina virtual dedicada solo para linux, en caso de que lo hagamos en una máquina real donde tenemos instalado
-        windows deberíamos hacerlo más prudentes porque podríamos cargarnos windows en instalación y perderíamos todos los datos que tuvieramos almacenados.
+        windows deberíamos hacerlo más prudentes porque podríamos cargarnos windows en la instalación y perderíamos todos los datos que tuvieramos almacenados.
 
     </p>
+    <img src="/img/virtualbox/cap3.png" alt="No se pudo cargar la imagen">
     <!--Instalar linux en máquina real-->
     <p>
         Para instalar linux en una máquina real debemos tener primero un usb booteado con la iso del sistema operativo.

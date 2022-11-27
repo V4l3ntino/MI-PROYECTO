@@ -13,12 +13,13 @@
 }
 /* Add some content at the bottom of the video/page */
 .content {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  color:  rgb(201, 201, 201);
   width: 100%;
-  padding: 50px
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
 }
 .content p{
   width: 100%;
@@ -46,6 +47,13 @@
   background: #ddd;
   color: black;
 }
+.caja{
+  width: 30%;
+  margin-left: 65%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5em;
+}
 .myBtn {
   width: 200px;
   font-size: 18px;
@@ -54,8 +62,7 @@
   background: #000;
   color: #fff;
   cursor: pointer;
- background-color: rgb(41, 41, 194);
- margin-left: 85%;
+ background-color: black;
  position: relative;
  
 }
@@ -65,5 +72,26 @@
 }
 
 .myBtn:hover {
-  background: orange;
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
 }

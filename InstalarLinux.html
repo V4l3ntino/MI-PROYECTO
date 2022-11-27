@@ -6,7 +6,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instalar Linux</title>
     <link rel="stylesheet" href="./InstalarLinux.css">
+    <style>
+     @media screen and (max-width: 800px){
+         
+      .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 30px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+.content p{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 15px;
+}
+.content h1{
+  font-size: 25px;
+  
+}
+.caja{
+  width: 40%;
+  
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  margin-top: 10%;
+}
+.myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
 
+}
+.myBtn2 {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+#myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+     }
+     @media screen and (min-width: 800px){
+      .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.caja{
+  width: 30%;
+  margin-left: 0%;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 8em;
+}
+     }
+      
+      
+     @media screen and (min-width: 1280px){
+      
+      *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+.content p{
+  width: 80%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 7%;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 18em;
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+     }
+  
+      
+    </style>
 </head>
 <body>
     <!-- The video -->
@@ -25,8 +233,12 @@
         Pero si tienes un ordenador potente pues alomejor no se nota demasiado la diferencia, por eso mismo cada uno ya elige lo que mejor le convenga.
     </p>
     <!-- Use a button to pause/play the video with JavaScript -->
-    <button id="myBtn" onclick="myFunction()">Pause</button>
-    <button class="myBtn"><a href="">Next</a></button>
+    
+    <div class="caja">
+      <button class="myBtn"><a href="">Home</a></button>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+      <button class="myBtn2"><a href="">Next</a></button>
+    </div>
   </div>
   <script>
     // Get the video

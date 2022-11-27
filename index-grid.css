@@ -51,9 +51,7 @@
     padding: 4em;
     width: 80%;
     margin: 0em auto 5em auto;
-    background-image: url(./img/cosa1.gif);
-    background-position: center center;
-    background-attachment: fixed;
+    background-color: black;
     border: solid black 10px;
     border-radius: 10px;
     height: fit-content;

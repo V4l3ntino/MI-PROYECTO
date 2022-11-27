@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalar Linux</title>
+    <link rel="stylesheet" href="./InstalarLinux.css">
+    <style>
+     @media screen and (max-width: 800px){
+         
+      .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 30px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+.content p{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 15px;
+}
+.content h1{
+  font-size: 25px;
+  
+}
+.caja{
+  width: 40%;
+  
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  margin-top: 10%;
+}
+.myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+
+}
+.myBtn2 {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+#myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+     }
+     @media screen and (min-width: 800px){
+      .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.caja{
+  width: 30%;
+  margin-left: 0%;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 8em;
+}
+     }
+      
+      
+     @media screen and (min-width: 1280px){
+      
+      *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+.content p{
+  width: 80%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.primero{
+     margin-top: 10%;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 7%;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 18em;
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+     }
+  
+      
+    </style>
+</head>
+<body>
+    <!-- The video -->
+  <video autoplay muted loop id="myVideo">
+    <source src="/videos/Videofinal5.mp4" type="video/mp4">
+  </video>
+
+  <!-- Optional: some overlay text to describe the video -->
+  <div class="content">
+    <h1>Como instalar Linux</h1>
+    <p class="primero"> 
+        Para ambos casos necesitaremos la iso del sistema operativo que vallamos a instalar, la iso es un tipo de archivo que se utiliza para almacenar una copia exacta de un sistema de ficheros de una unidad óptica. En nuestro caso tendremos que instalar la iso de <a style="text-decoration: solid; color: purple; font-size: 19px; " href="https://ubuntu.com/download"><span style="font-weight: bold;">ubuntus</span></a> que la podremos encontrar fácilmente
+        en la propia página web de ubuntus. A diferencia de windows, ubuntus y todos los "sabores" de sistemas linux son siempre gratuitos para el público.
+    </p>
+    
+    <!--Máquina virtual-->
+    <p> 
+        Por ahora solo tengo pensado explicarlo desde virtualbox, pero no descarto que en un futuro explique también como hacerlo desde una máquina real. Lo primero que vamos hacer es crear la máquina asignándole el nombre, la capacidad de almacenamiento y la memoria RAM que queramos
+        que tenga nuestro sistema operativo. Debemos tener cuidado con la cantidad de memoria RAM que le asignamos a la máquina porque nuestro propio sistema operativo
+        también necesita un mínimo para poder funcionar. En el caso de que le asignemos demasiada RAM nos petaría el ordenador.
+    </p>
+    <!--Instalar linux en VirtualBox-->
+    <p>
+        Para instalar linux solo tendríamos que darle todo a siguiente hasta que nos pregunte por nuestro nombre de usuario y por la contraseña, lo demás sería esperar hasta que se termine 
+        de instalarse. Esto solo se puede hacer en este caso, porque tenemos hecha una máquina virtual dedicada solo para linux, en caso de que lo hagamos en una máquina real donde tenemos instalado
+        windows deberíamos hacerlo más prudentes porque podríamos cargarnos windows en instalación y perderíamos todos los datos que tuvieramos almacenados.
+
+    </p>
+    <!--Instalar linux en máquina real-->
+    <p>
+        Para instalar linux en una máquina real debemos tener primero un usb booteado con la iso del sistema operativo.
+        Os recomiendo utilizar Rufus que es con el que yo he usado siempre y nunca me ha dado problemas.
+        Luego deberíamos tocar la configuración de la BIOS para que al arrancar el ordenador primero lo haga desde el usb.
+        Una vez hecho esto arrancamos y elegimos la primera opción que nos sale para la instalación.
+        Después tendrémos que elegir el idioma que queramos para el sistema, en nuestro caso español. Luego nos pide la distribución de teclado, también escogemos el Español.
+        Luego nos pedirá donde se queremos hacer la instalación, si tenemos windows instalado, linux lo reconocerá y nos saldrá una opción adicional que nos diga "Instalar linux junto a Windows"
+        podemos darle a ese y el sistema se instalará por defecto en la partición libre que le hallamos asignado.
+        También podemos escoger la última opción que nos permitiría crear nuestra propia tabla de particiones donde nosotros mismos podremos organizar la tabla de particiones, lo ideal sería tener una partición 
+        reservada solo para los datos y otra para la instalación del sistema operativo. Así si tubieramos que cambiar de sistema operativo podríamos hacerlo
+        sobre esa misma partición sin tener que perder los datos.
+    </p>
+    <!-- Use a button to pause/play the video with JavaScript -->
+    
+    <div class="caja">
+      <button class="myBtn"><a href="">Home</a></button>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+      <button class="myBtn2"><a href="">Next</a></button>
+    </div>
+  </div>
+  <script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+    
+    // Get the button
+    var btn = document.getElementById("myBtn");
+    
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+</body>
+</html>

@@ -4,118 +4,1028 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./ComandosBásicos.css">
+    <title>Instalar Linux</title>
+    <link rel="stylesheet" href="./InstalarLinux.css">
+    <style>
+   
+    
+     @media screen and (max-width: 400px){
+         
+      .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 30px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+
+img{
+    margin-top: 10vh;
+    width: 18em;
+}
+ol{
+    font-size: 20px;
+}
+.content p{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 20px;
+}
+.content h1{
+  font-size: 30px;
+  
+}
+.caja{
+  width: 40%;
+  
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  margin-top: 10%;
+}
+.myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+
+}
+.myBtn2 {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+#myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+     }
+     @media (min-width:400px) and (max-width: 494px) {
+         .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 30px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-top: 10vh;
+    width: 30em;
+}
+ol{
+    font-size: 20px;
+}
+.content p{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 20px;
+}
+.content h1{
+  font-size: 30px;
+  
+}
+.caja{
+  width: 40%;
+  
+  margin-left: 0%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2.5em;
+  margin-top: 10%;
+  
+}
+.myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+
+}
+.myBtn2 {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+#myBtn {
+  width: 90px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+     }
+     @media (min-width:494px) and (max-width:680px){
+        *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-left: 10%;
+    width: 65em;
+    margin-top: 7vh;
+    
+}
+.content p{
+  width: 80%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.primero{
+     margin-top: 10%;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 120px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 0em;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  
+}
+.myBtn {
+  width: 120px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 120px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+     }
+     
+    @media (min-width:680px) and (max-width:1000px){
+             
+      *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-left: 10%;
+    width: 65em;
+    margin-top: 7vh;
+    
+}
+.content p{
+  width: 80%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.primero{
+     margin-top: 10%;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 0em;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7em;
+ 
+  
+}
+.myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+}
+@media (min-width:1000px) and (max-width:1050px) {
+    *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-left: 10%;
+    width: 65em;
+    margin-top: 7vh;
+    
+}
+.content p{
+  width: 80%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.primero{
+     margin-top: 10%;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 0em;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7em;
+ 
+  
+}
+.myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+} 
+      @media (min-width:1050px) and (max-width:1100px){
+        *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-left: 10%;
+    width: 65em;
+    margin-top: 7vh;
+    
+}
+.content p{
+  width: 80%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.primero{
+     margin-top: 10%;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 2em;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10em;
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+      }
+
+    @media (min-width:1100px) and (max-width:1280px) {
+        *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-left: 10%;
+    width: 65em;
+    margin-top: 7vh;
+    
+}
+.content p{
+  width: 80%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.primero{
+     margin-top: 10%;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 2em;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10em;
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+}
+     @media  (min-width: 1280px) and (max-width:1380px) {
+      
+      *{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+}
+img{
+    margin-left: 10%;
+    width: 65em;
+    margin-top: 7vh;
+    
+}
+.content p{
+  width: 80%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.primero{
+     margin-top: 10%;
+}
+.content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.caja{
+  width: 30%;
+  margin-left: 2em;
+  margin-top: 35%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 17em;
+  
+}
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+.myBtn a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+ background-color: black;
+ position: relative;
+ 
+}
+
+.myBtn2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+}
+}
+@media (min-width:1380px){
+    *{
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    position: fixed;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+  
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.767);
+    color:  rgb(201, 201, 201);
+    width: 100%;
+    padding: 50px;
+    text-shadow: 5px 5px 10px black;
+    height: fit-content;
+  }
+  img{
+      margin-left: 10%;
+      width: 65em;
+      margin-top: 7vh;
+      
+  }
+  .content p{
+    width: 80%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+  .primero{
+       margin-top: 10%;
+  }
+  .content h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2%;
+    position: relative;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  .caja{
+    width: 30%;
+    margin-left: 2em;
+    margin-top: 35%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20em;
+  }
+  .myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+   background-color: black;
+   position: relative;
+   
+  }
+  .myBtn a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .myBtn:hover {
+    background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+   background-color: black;
+   position: relative;
+   
+  }
+  
+  .myBtn2 a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .myBtn2:hover {
+    background:  rgba(0, 0, 0, 0.5)
+  }
+}
+    
+    </style>
 </head>
 <body>
-    <p>
-        Bueno para abrir la terminal podemos presionar la combinación de teclas Cntr+Alt+T.
-        También podemos buscarlo desde el menú pulsando la tecla Windows y escribiendo "terminal"
-        En la terminal podemos hacer lo mismo e incluso más de lo que podemos hacer desde la interfaz
-        gráfica del sistema.
-        Acontinuación voy a seguir una lista con todos los comandos y explicando para que sirve cada uno. Tenemos que tener cuidado
-        con las minúsculas y mayúsculas porque linux es sensible a esto, es decir que si ponemos el mismo comando pero lo escribimos todo
-        en mayúsculas pues no será capaz de interpretar ese comando. ¡Todos los camandos que escriba a continuación se tienen que escribir en minúsculas!
+        <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+        <source src="/videos/Videofinal5.mp4" type="video/mp4">
+    </video>
 
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+        <h1>Comandos básicos en una terminal de Linux</h1>
+        <p 
+        style="
+        margin-left: 0;
+        width: 100%;
+        
+        ">
+            Bueno para abrir la terminal podemos presionar la combinación de teclas Cntr+Alt+T.
+            También podemos buscarlo desde el menú pulsando la tecla Windows y escribiendo "terminal"
+            En la terminal podemos hacer lo mismo e incluso más de lo que podemos hacer desde la interfaz
+            gráfica del sistema.
+            Acontinuación voy a seguir una lista con todos los comandos y explicando para que sirve cada uno. Tenemos que tener cuidado
+            con las minúsculas y mayúsculas porque linux es sensible a esto, es decir que si ponemos el mismo comando pero lo escribimos todo
+            en mayúsculas pues no será capaz de interpretar ese comando. ¡Todos los camandos que escriba a continuación se tienen que escribir en minúsculas!
+    
+        </p>
         <ol>
-            <li>Mkdir
-                <ul>
-                    <li>Con mkdir podemos crear una carpeta, solo tendríamos que poner "mkdir" seguidamente del nombre
-                        que queramos ponerle a la carpeta.
-                    </li>
-                </ul>
+            <li>Mkdir: Con mkdir podemos crear una carpeta, solo tendríamos que poner "mkdir" seguidamente del nombre
+                que queramos ponerle a la carpeta.
+               
             </li>
             <li>
-                CD
-                <ul>
-                    <li>
-                        Con "cd" podemos movernos entre distintos directorios, los directorios son las carpetas que hay dentro
-                        de nuestro sistema operativo, por defecto el sistema tiene una serie de carpetas importantes donde 
-                        se encuentran todos los archivos importantes para su correct funcionamiento, entre esas carpetas se encuentran
-                        una con el nombre de nuestro usuario y es en esa donde se guardan todos nuestros datos. 
-                        Cuando nos movemos entre directorios (carpetas) lo que hacemos es entrar o salir de una carpeta. Esas carpetas 
-                        se encuentran dentro de otras carpetas, por lo que para movernos a una carpeta en concreto debemos saber cuál es la "Ruta".
-                        Y la ruta sería todas esas carpetas a las que tendremos que acceder para llegar hasta la carpeta que nos interesa.
-                        La Ruta puede ser Absoluta o Relativa, la diferencia es que en la Absoluta tendremos que escribir todas las carpetas que hay desde el inicio
-                        hasta el final de nuestro destino, mientras que una ruta relativa es cuando le indicamos al sistema que nos movemos desde el punto donde nos encontramos
-                        por ejemplo:
-                        <ol>
-                            <li>
-                                Ruta Absoluta: si creamos una carpeta en el escritorio y queremos entrar debemos poner la siguiente ruta:
-                                <ul>
-                                    <li>
-                                        cd /home/usuario/Desktop/carpetaNueva
-                                    </li>
-                                </ul>
-                                <p>Según como tengamos configurado el idioma del sistema tendremos que poner Desktop o Escritorio. Cuando pongo
-                                    carpetaNueva hago referencia a esa carpeta que hemos creado y cuando pongo usuario hago referencia al nombre de 
-                                    mi cuenta, si tu por ejemplo te llamas Pepe tendrías que poner:
-                                    <ul>
-                                        <li>
-                                            cd /home/Pepe/Desktop/carpetaNueva
-                                        </li>
-                                    </ul>
-                                </p>
-                            </li>
-                            <li>
-                                Ruta relativa: la ruta relativa en este caso nos sería más cómodo porque solo tendríamos que poner:
-                                
-                                <ul>
-                                    <li>
-                                        cd carpetaNueva
-                                    </li>
-                                </ul>
-                                En este caso el sistema coge directamente la ruta donde nos encontramos y se mueve a la carpetaNueva
+                CD: Con "cd" podemos movernos entre distintos directorios, los directorios son las carpetas que hay dentro
+                de nuestro sistema operativo, por defecto el sistema tiene una serie de carpetas importantes donde 
+                se encuentran todos los archivos importantes para su correct funcionamiento, entre esas carpetas se encuentran
+                una con el nombre de nuestro usuario y es en esa donde se guardan todos nuestros datos. 
+                Cuando nos movemos entre directorios (carpetas) lo que hacemos es entrar o salir de una carpeta. Esas carpetas 
+                se encuentran dentro de otras carpetas, por lo que para movernos a una carpeta en concreto debemos saber cuál es la "Ruta".
+                Y la ruta sería todas esas carpetas a las que tendremos que acceder para llegar hasta la carpeta que nos interesa.
+                La Ruta puede ser Absoluta o Relativa, la diferencia es que en la Absoluta tendremos que escribir todas las carpetas que hay desde el inicio
+                hasta el final de nuestro destino, mientras que una ruta relativa es cuando le indicamos al sistema que nos movemos desde el punto donde nos encontramos
+                por ejemplo:
 
-                            </li>
-                            <li>
-                                Si queremos salir de una carpeta ponemos lo siguiente:
-
-                                <ul>
-                                    <li>
-                                        cd .. ---_> Lo que hace es retroceder una posición hacia atrás
-                                    </li>
-                                    <li>
-                                        cd ../.. ----> Lo que hace es retroceder dos posiciones hacia atrás
-                                    </li>
-                                    <li>
-                                        cd ../../.. ----> Lo que hace es retroceder tres posiciones hacia atrás
-                                    </li>
-                                </ul>
-                                Si queremos salir y entrar a otra carpte escribimos lo siguiente, suponiendo que estoy en el escritorio y quiero acceder a la carpeta Documentos
-                                <ul>
-                                    <li>
-                                        cd ../Documentos --> Esta ruta sería una ruta relativa porque lo estamos haciendo desde el punto donde nos encontramos 
-                                        que en mi caso es el escritorio
-                                    </li>
-                                </ul>
-                            <li>
-                                Pwd: nos muestra cuál es la ruta actual donde nos encontramos.
-                            </li>
-                            
-                        </ol>
-
-
-                    </li>
-                </ul>
+                <p>Ruta Absoluta: si creamos una carpeta en el escritorio y queremos entrar debemos poner la siguiente ruta:</p>
+               <p>Según como tengamos configurado el idioma del sistema tendremos que poner Desktop o Escritorio. Cuando pongo
+                carpetaNueva hago referencia a esa carpeta que hemos creado y cuando pongo usuario hago referencia al nombre de 
+                mi cuenta, si tu por ejemplo te llamas Pepe tendrías que poner:</p>
+                <p>Ruta relativa: la ruta relativa en este caso nos sería más cómodo porque solo tendríamos que poner:</p>
+                <p>En este caso el sistema coge directamente la ruta donde nos encontramos y se mueve a la carpetaNueva</p>
+                <p>Si queremos salir de una carpeta ponemos lo siguiente:</p>
+                <p>Si queremos salir y entrar a otra carpte escribimos lo siguiente, suponiendo que estoy en el escritorio y quiero acceder a la carpeta Documentos</p>
             </li>
+            <li>Pwd: nos muestra cuál es la ruta actual donde nos encontramos.</li>
             <li>
                 touch: sirve para crear archivos de texto, se escribe de la misma manera que cuando creabamos carpetas, solo tendríamos que escribir:
-                <ul>
-                    <li>
-                        touch nombre.txt
-                    </li>
-                </ul>
+                
                 
             </li>
             <li>
                 ls: este comando nos muestra todo el contenido que pueda haber dentro de una carpeta
-                <ul>
-                    <li>
-                        ls -la: nos muestra todos los archivos que hay en una carpeta y además nos muestra todos los permisos que 
-                        tiene cada uno de los archivos, y a los grupos a los que pertenece así como la fecha que fueron creados.
-                    </li>
-                </ul>
+                
             </li>
             <li>
                 cat: nos muestra el contenido que hay dentro de un archivo, por ejemplo si le hacemos un cat a un fichero .txt nos muestra
@@ -133,7 +1043,32 @@
                 sudo apt remove: el "remove" es para desinstalar una herramienta o aplicación de nuestro sistema.
             </li>
         </ol>
+
+        <!-- Use a button to pause/play the video with JavaScript -->
         
-    </p>
+        <div class="caja">
+        <button class="myBtn"><a href="">Home</a></button>
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+        <button class="myBtn2"><a href="">Next</a></button>
+        </div>
+    </div>
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+        if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+        } else {
+            video.pause();
+            btn.innerHTML = "Play";
+        }
+        }
+    </script>
 </body>
 </html>

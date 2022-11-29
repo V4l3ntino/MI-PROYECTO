@@ -15,7 +15,7 @@
 .content {
   position: absolute;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.767);
   color:  rgb(201, 201, 201);
   width: 100%;
   padding: 50px;
@@ -99,4 +99,14 @@ img{
 .myBtn2:hover {
   background:  rgba(0, 0, 0, 0.5);
 }
+ol {
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.719);
+  border-radius: 20px;
+}
+ol li{
+  padding: 20px;
+  text-align: left;
 
+}

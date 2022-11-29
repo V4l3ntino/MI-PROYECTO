@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instalar Linux</title>
     <link rel="stylesheet" href="./InstalarLinux.css">
+    <link rel="stylesheet" href="./ComandosBásicos.css">
     <style>
    
     
@@ -14,7 +15,7 @@
       .content {
   position: absolute;
   top: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.767);
   color:  rgb(201, 201, 201);
   width: 100%;
   padding: 30px;
@@ -32,15 +33,16 @@ ol{
 .content p{
   width: 100%;
   margin-top: 10%;
-  font-size: 20px;
+  font-size: 14px;
 }
 .content h1{
-  font-size: 30px;
+  font-size: 20px;
+  
   
 }
 .caja{
   width: 40%;
-  
+  background: rgba(0, 0, 0, 0.767);
   margin-left: 0%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -87,7 +89,7 @@ ol{
          .content {
   position: absolute;
   top: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.767);
   color:  rgb(201, 201, 201);
   width: 100%;
   padding: 30px;
@@ -107,12 +109,12 @@ ol{
   font-size: 20px;
 }
 .content h1{
-  font-size: 30px;
+  font-size: 26px;
   
 }
 .caja{
   width: 40%;
-  
+  background: rgba(0, 0, 0, 0.767);
   margin-left: 0%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -198,7 +200,7 @@ img{
      margin-top: 10%;
 }
 .content h1{
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
   padding-top: 50px;
 }
@@ -315,7 +317,7 @@ img{
      margin-top: 10%;
 }
 .content h1{
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
   padding-top: 50px;
 }
@@ -651,16 +653,17 @@ img{
     margin-top: 7vh;
     
 }
+ol{
+    font-size: 30px;
+}
 .content p{
   width: 80%;
  
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
+  font-size: 30px;
 }
-.primero{
-     margin-top: 10%;
-}
+
 .content h1{
   font-size: 60px;
   text-align: center;
@@ -771,10 +774,13 @@ img{
  
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
+  font-size: 30px;
 }
 .primero{
      margin-top: 10%;
+}
+ol{
+    font-size: 30px;
 }
 .content h1{
   font-size: 60px;
@@ -996,6 +1002,7 @@ img{
                 que queramos ponerle a la carpeta.
                
             </li>
+            <img class="fotos1" src="./img/comandos/cap1.png" alt="">
             <li>
                 CD: Con "cd" podemos movernos entre distintos directorios, los directorios son las carpetas que hay dentro
                 de nuestro sistema operativo, por defecto el sistema tiene una serie de carpetas importantes donde 
@@ -1007,41 +1014,54 @@ img{
                 La Ruta puede ser Absoluta o Relativa, la diferencia es que en la Absoluta tendremos que escribir todas las carpetas que hay desde el inicio
                 hasta el final de nuestro destino, mientras que una ruta relativa es cuando le indicamos al sistema que nos movemos desde el punto donde nos encontramos
                 por ejemplo:
+                
 
                 <p>Ruta Absoluta: si creamos una carpeta en el escritorio y queremos entrar debemos poner la siguiente ruta:</p>
+                <img class="fotos1" src="./img/comandos/cap2.png" alt="" class="fotos">
                <p>Según como tengamos configurado el idioma del sistema tendremos que poner Desktop o Escritorio. Cuando pongo
                 carpetaNueva hago referencia a esa carpeta que hemos creado y cuando pongo usuario hago referencia al nombre de 
                 mi cuenta, si tu por ejemplo te llamas Pepe tendrías que poner:</p>
+                <img class="fotos1" src="./img/comandos/cap3.png" alt="">
                 <p>Ruta relativa: la ruta relativa en este caso nos sería más cómodo porque solo tendríamos que poner:</p>
-                <p>En este caso el sistema coge directamente la ruta donde nos encontramos y se mueve a la carpetaNueva</p>
-                <p>Si queremos salir de una carpeta ponemos lo siguiente:</p>
-                <p>Si queremos salir y entrar a otra carpte escribimos lo siguiente, suponiendo que estoy en el escritorio y quiero acceder a la carpeta Documentos</p>
+                <img class="fotos1" src="./img/comandos/cap4.png" alt="">
+                <p>En este caso el sistema coge directamente la ruta donde nos encontramos y se mueve a la carpetaNueva <br>
+                    Si queremos salir de una carpeta ponemos lo siguiente:
+                </p>
+                <img class="fotos1" src="./img/comandos/cap5.png" alt="">
+                
+                <p>Si queremos salir y entrar a otra carpte escribimos lo siguiente, suponiendo que estoy en el Escritorio y quiero acceder a la carpeta Documentos</p>
+                <img class="fotos1" src="./img/comandos/cap6.png" alt="">
             </li>
             <li>Pwd: nos muestra cuál es la ruta actual donde nos encontramos.</li>
+            <img src="./img/comandos/cap7.png" alt="" class="fotos1">
             <li>
                 touch: sirve para crear archivos de texto, se escribe de la misma manera que cuando creabamos carpetas, solo tendríamos que escribir:
-                
-                
             </li>
+            <img src="./img/comandos/cap8.png" alt="" class="fotos1">
             <li>
                 ls: este comando nos muestra todo el contenido que pueda haber dentro de una carpeta
                 
             </li>
+            <img src="./img/comandos/cap9.png" alt="" class="fotos1">
             <li>
                 cat: nos muestra el contenido que hay dentro de un archivo, por ejemplo si le hacemos un cat a un fichero .txt nos muestra
                 todo lo que hallamos escrito dentro de ese archivo .txt.
             </li>
+            <img src="./img/comandos/cap10.png" alt="" class="fotos1">
             <li>
                 sudo apt update && sudo apt upgrade: para actualizar el sistema utilizamos estos dos comandos, el udate lo que hace es 
                 comparar la versión de todos los repositorios con los repositorios que hay en la nube para ver cuales hay que actualizar y el upgrade es el que ya se encarga de 
                 instalar los paquetes y actualizarlos.El símbolo "&&" lo que hace es que podamos escribir dos comandos seguidos en la terminal.
             </li>
+            <img src="./img/comandos/cap11.png" alt="" class="fotos1">
             <li>
                 sudo apt install: este comando va seguido del nombre de la aplicación o de la herramienta  para instalarlo en nuestro sistema.
             </li>
+            <img src="./img/comandos/cap12.png" alt="" class="fotos1">
             <li>
                 sudo apt remove: el "remove" es para desinstalar una herramienta o aplicación de nuestro sistema.
             </li>
+            <img src="./img/comandos/cap13.png" alt="" class="fotos1">
         </ol>
 
         <!-- Use a button to pause/play the video with JavaScript -->

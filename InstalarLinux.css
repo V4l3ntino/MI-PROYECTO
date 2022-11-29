@@ -21,6 +21,10 @@
   padding: 50px;
   text-shadow: 5px 5px 10px black;
 }
+img{
+  opacity: 0.9;
+  border-radius: 20px;
+}
 .content p{
   width: 100%;
   margin-top: 2%;

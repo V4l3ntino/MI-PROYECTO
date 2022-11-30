@@ -110,3 +110,20 @@ ol li{
   text-align: left;
 
 }
+@font-face {
+  font-family: "fuente1";
+  src: url(./fuentes/fuente4.otf);
+}
+
+@font-face {
+  font-family: "fuente3";
+  src: url(./fuentes/fuente3.otf);
+}
+h1{
+  font-family: "fuente3";
+}
+p{
+  font-family: "fuente1";
+}
+
+

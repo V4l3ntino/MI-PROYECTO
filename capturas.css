@@ -1,0 +1,250 @@
+
+.cajafotos{
+    margin-top: 10em;
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5em;
+    padding: 50px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.671);
+    margin: auto;
+    height: fit-content;
+    border-radius: 20px;
+    
+    
+}
+.fotos{
+    
+    width: 10em;
+    height: 10em;
+    margin: auto;
+    border-radius: 50%;
+    
+}
+.foto1{
+    background-image: url(./img/virtualbox/cap1.png);
+    background-size: cover;
+    background-position: center center;
+}
+.foto2{
+    background-image: url(./img/virtualbox/cap2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.foto3{
+    background-image: url(./img/virtualbox/cap3.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.foto4{
+    background-image: url(./img/phishing/
+    background-size: cover; 
+    background-position: center center;
+}
+.foto5{
+    background-image: url(./img/comandos/cap1.png);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto6{
+    background-image: url(./img/./img/comandos/cap2);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto7{
+    background-image: url(./img/comandos/cap3.png);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto8{
+    background-image: url(./img/comandos/cap4.png);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto9{
+    background-image: url(./img/comandos/cap5.png);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto10{
+    background-image: url(./img/comandos/cap6.png);
+    background-size: cover; 
+    background-position: center center;
+}
+
+.grid :hover{
+    transform: scale(5);
+    border-radius: 20px;
+    transition: 0.6s all ease;
+    border: purple 5px solid;
+    box-shadow: 5px 5px 10px purple;
+}
+@media (max-width:400px){
+   
+    .cajafotos{
+        margin-top: 5em;
+    }
+    .grid{
+        
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 5em;
+        padding: 50px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.671);
+        margin: auto;
+        height: fit-content;
+        border-radius: 20px;
+        
+        
+    }
+    .fotos{
+        
+        width: 10em;
+        height: 10em;
+        margin: auto;
+        border-radius: 50%;
+        
+    }
+
+}
+@media (min-width:400px) and (max-width:494px){
+    .cajafotos{
+        margin-top: 5em;
+    }
+    .grid{
+        
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 5em;
+        padding: 50px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.671);
+        margin: auto;
+        height: fit-content;
+        border-radius: 20px;
+        
+        
+    }
+    .fotos{
+        
+        width: 10em;
+        height: 10em;
+        margin: auto;
+        border-radius: 50%;
+        
+    } 
+}
+@media (min-width:494px) and (max-width:680px){
+    .cajafotos{
+        margin-top: 5em;
+    }
+    .grid{
+        
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 5em;
+        padding: 50px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.671);
+        margin: auto;
+        height: fit-content;
+        border-radius: 20px;
+        
+        
+    }
+    .fotos{
+        
+        width: 15em;
+        height: 15em;
+        margin: auto;
+        border-radius: 50%;
+        
+    } 
+}
+@media (min-width:680px) and (max-width:1000px){
+    .cajafotos{
+        margin-top: 5em;
+    }
+    .grid{
+        
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 5em;
+        padding: 50px;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.671);
+        margin: auto;
+        height: fit-content;
+        border-radius: 20px;
+        
+        
+    }
+    .fotos{
+        
+        width: 20em;
+        height: 20em;
+        margin: auto;
+        border-radius: 50%;
+        
+    } 
+}
+@media (min-width:1000px) and (max-width:1100px) {
+    .cajafotos{
+        margin-top: 5em;
+    }
+    .grid{
+        
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 5em;
+        padding: 50px;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.671);
+        margin: auto;
+        height: fit-content;
+        border-radius: 20px;
+        
+        
+    }
+    .fotos{
+        
+        width: 20em;
+        height: 20em;
+        margin: auto;
+        border-radius: 50%;
+        
+    } 
+}
+@media (min-width:1100px) and (max-width:1280px) {
+    .cajafotos{
+        margin-top: 5em;
+    }
+    .grid{
+        
+        display: grid;
+        grid-template-columns: auto ;
+        grid-gap: 5em;
+        padding: 50px;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0.671);
+        margin: auto;
+        height: fit-content;
+        border-radius: 20px;
+        
+        
+    }
+    .fotos{
+        
+        width: 20em;
+        height: 20em;
+        margin: auto;
+        border-radius: 50%;
+        
+    } 
+}

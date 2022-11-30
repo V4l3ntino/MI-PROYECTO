@@ -19,3 +19,69 @@ p{
     font-size: 35px;
     text-align: center;
 }
+@media (max-width:400px){
+    form{
+        padding-left: 10%;
+        
+    
+    }
+    .bg-text{
+        width: 40%;
+        border-radius: 20px;
+    }
+    #username{
+        height: 20px;
+        width: 100%;
+        font-size: 5px;
+        
+    }
+    #pwd{
+        height: 20px;
+        width: 100%;
+    }
+ 
+} 
+@media (min-width:400px) and (max-width:600px){
+    form{
+        padding-left: 10%;
+        
+    
+    }
+    .bg-text{
+        width: 40%;
+        border-radius: 20px;
+        
+    }
+    #username{
+        height: 20px;
+        width: 100%;
+        font-size: 5px;
+        
+    }
+    #pwd{
+        height: 20px;
+        width: 100%;
+    }
+}
+@media (min-width:600px) and (max-width:1000px){
+    form{
+        padding-left: 10%;
+        
+    
+    }
+    .bg-text{
+        width: 40%;
+        border-radius: 20px;
+        
+    }
+    #username{
+        height: 30px;
+        width: 100%;
+        font-size: 5px;
+        
+    }
+    #pwd{
+        height: 30px;
+        width: 100%;
+    }
+}

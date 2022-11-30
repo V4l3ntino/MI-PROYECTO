@@ -6,22 +6,14 @@ body, html {
   box-sizing: border-box;
 }
 
-.bg-image {
-  /* The image used */
-  background-image: url("./img/tintedark.jpg");
-
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+body{
+  background-image: url(./img/tintedark.jpg);
   background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 1000px;
+  
+  
 }
 
 /* Position text in the middle of the page/image */
@@ -32,8 +24,9 @@ body, html {
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 50%;
+  height: fit-content;
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 50%;
@@ -43,14 +36,15 @@ body, html {
 /* Style the links inside the sidenav */
 #mySidenav a {
   position: absolute; /* Position them relative to the browser window */
-  left: -100px; /* Position them outside of the screen */
+  left: -110px; /* Position them outside of the screen */
   transition: 0.3s; /* Add transition on hover */
   padding: 15px; /* 15px padding */
-  width: 120px; /* Set a specific width */
+  width: 150px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
   font-size: 20px; /* Increase font size */
   color: white; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  z-index: 20;
 }
 
 #mySidenav a:hover {
@@ -77,6 +71,10 @@ body, html {
   top: 380px;
   background-color: #555 /* Light Black */
 }
+#menu {
+  top: 440px;
+  background-color: rgb(255, 0, 212) /* Light Black */
+}
 #navbar {
   background-color: #333; /* Black background color */
   position: fixed; /* Make it stick/fixed */
@@ -86,6 +84,7 @@ body, html {
   margin-left: 9%;
   margin-right: 9%;
   border-radius: 20px;
+  z-index: 20;
  
 }
 
@@ -108,4 +107,110 @@ body, html {
   background-color: #ddd;
   color: black;
   
+}
+@font-face {
+  font-family: "fuente1";
+  src: url(./fuentes/fuente1.otf);
+}
+
+@font-face {
+  font-family: "fuente3";
+  src: url(./fuentes/fuente3.otf);
+}
+h1{
+  font-family: "fuente3";
+  color: white;
+  text-align: center;
+}
+p{
+  font-family: "fuente1";
+}
+a{
+  font-family: "fuente1";
+}
+@media (max-width:400px){
+  /* Position text in the middle of the page/image */
+.bg-text {
+ 
+  background-color: rgba(0, 0, 0, 0.781); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: relative;
+  top: 40%;
+  font-size: 10px;
+  margin-left: 10%;
+  height: fit-content;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: left;
+}
+h1{
+  font-size: 20px;
+}
+} 
+@media (min-width:400px) and (max-width:600px){
+  .bg-text {
+ 
+    background-color: rgba(0, 0, 0, 0.781); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 60%;
+    font-size: 15px;
+    margin-left: 10%;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+  }
+  h1{
+    font-size: 20px;
+  }
+  } 
+
+@media (min-width:600px) and (max-width:700px){
+  .bg-text {
+ 
+    background-color: rgba(0, 0, 0, 0.781); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 60%;
+    font-size: 18px;
+    margin-left: 10%;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
+@media (min-width:700px) and (max-width:1000px){
+  .bg-text {
+ 
+    background-color: rgba(0, 0, 0, 0.781); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 60%;
+    font-size: 18px;
+    margin-left: 10%;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+  }
+  h1{
+    font-size: 30px;
+  }
 }

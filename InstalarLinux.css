@@ -126,4 +126,19 @@ p{
   font-family: "fuente1";
 }
 
+dl {
+  font-size: 20px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.719);
+  border-radius: 20px;
+}
+dl dd {
+  padding: 20px;
+  text-align: left;
 
+}
+dl dt {
+  padding: 20px;
+  text-align: left;
+
+}

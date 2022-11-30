@@ -121,6 +121,7 @@ h1{
   font-family: "fuente3";
   color: white;
   text-align: center;
+  font-size: 60px;
 }
 p{
   font-family: "fuente1";
@@ -211,6 +212,27 @@ h1{
     text-align: left;
   }
   h1{
-    font-size: 30px;
+    font-size: 40px;
+  }
+}
+@media (min-width:1000px){
+  .bg-text {
+ 
+    background-color: rgba(0, 0, 0, 0.781); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: 50%;
+    font-size: 18px;
+    margin-left: 0%;
+    height: fit-content;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: left;
+  }
+  h1{
+    font-size: 60px;
   }
 }

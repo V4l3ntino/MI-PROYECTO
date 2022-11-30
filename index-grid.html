@@ -4,373 +4,1088 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index-grid.css">
+    <title>Instalar Linux</title>
+    <link rel="stylesheet" href="./InstalarLinux.css">
+    <link rel="stylesheet" href="./Seguridad.css">
+    <link rel="icon" type="image/jpg" href="/img/FAVICON/lobo5.png"/>
     <style>
-         @media screen and (max-width: 800px){
-         
-            .viewport-header {
-            justify-content: center;
-            position: absolute;
-            
-            width: 80%;
-            margin-top: 10%;
-        }
-        .viewport-header h4{
-            font-size: 10px;
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-            margin-top: 5%;
-        }
-        .viewport-header h1{
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-            font-size: 18px;
-        }
-        .contenedor2{
-            background-image: url(/img/cosa2.gif);
-            background-position: center center;
-            background-attachment: fixed;
-            
-            position: absolute;
-            margin: 15em auto auto auto;
-            width: 100%;
-            height: fit-content;
-            padding: 0em;
-            
-        }
-        .grid{
-            padding: 1.5em;
-            width: 80%;
-            margin: 0em auto 5em auto;
-            background-color: black;
-            border: solid black 10px;
-            border-radius: 10px;
-            height: fit-content;
-            display: grid;
-            grid-template-columns: auto ;
-            grid-gap: 2em;
-
-        }
-        .grid :hover{
-            transform: scale(0.9);
-            border-radius: 15%;
-            transition: all 1.5s ease;
-            border: solid 5px white;
-            
-        }
-
-
-        .fotos{
-            margin: auto;
-            width: 10em;
-            height: 10em;
-            border-radius: 50%;
-            border: solid 5px black;
-        }
-
-        .foto1{
-            background-image: url(./img/instlinux.gif);
-            background-position: center center;
-            background-size: cover;
-        }
-        .foto2{
-            background-image: url(./img/comando2.gif);
-            background-position: center center ;
-            background-size: cover;
-            
-        }
-        .foto3{
-            background-image: url(./img/html-intro.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        .foto4{
-            background-image: url(./img/cyber.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        }
-        @media screen and (min-width: 800px){
-         
-         .viewport-header {
-            justify-content: center;
-            position: absolute;
-            width: 80%;
-            margin-top: 5%;
-        }
-        .viewport-header h4{
-            font-size: 20px;
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-            margin-top: 2%;
-        }
-        .viewport-header h1{
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-            font-size: 50px;
-        }
-        .contenedor2{
-            background-image: url(/img/cosa2.gif);
-            background-position: center center;
-            background-attachment: fixed;
-            
-            position: absolute;
-            margin: 15em auto auto auto;
-            width: 100%;
-            height: fit-content;
-            padding: 0em;
-            
-        }
-        .grid{
-            padding: 1.5em;
-            width: 80%;
-            margin: 0em auto 5em auto;
-           
-            border: solid black 10px;
-            border-radius: 10px;
-            height: fit-content;
-            display: grid;
-            grid-template-columns: auto auto;
-            grid-gap: 2em;
-
-        }
-        .grid :hover{
-            transform: scale(0.9);
-            border-radius: 15%;
-            transition: all 1.5s ease;
-            border: solid 5px white;
-            
-        }
-
-
-        .fotos{
-            margin: auto;
-            width: 18em;
-            height: 18em;
-            border-radius: 50%;
-            border: solid 5px black;
-        }
-
-        .foto1{
-            background-image: url(./img/instlinux.gif);
-            background-position: center center;
-            background-size: cover;
-        }
-        .foto2{
-            background-image: url(./img/comando3.gif);
-            background-position: center center ;
-            background-size: cover;
-            
-        }
-        .foto3{
-            background-image: url(./img/html-intro.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        .foto4{
-            background-image: url(./img/cyber.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        }
-        @media screen and (min-width: 1280px){
-         
-         .viewport-header {
-            justify-content: center;
-            position: absolute;
-            width: 80%;
-            margin-top: 2%;
-        }
-        .viewport-header h4{
-            font-size: 19px;
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-        }
-        .viewport-header h1{
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-            font-size: 80px;
-        }
-        .contenedor2{
-            background-image: url(/img/cosa2.gif);
-            background-position: center center;
-            background-attachment: fixed;
-            
-            position: absolute;
-            margin: 15em auto auto auto;
-            width: 100%;
-            height: fit-content;
-            padding: 0em;
-            
-        }
-        .grid{
-            padding: 1.5em;
-            width: 80%;
-            margin: 0em auto 5em auto;
-           
-            border: solid black 10px;
-            border-radius: 10px;
-            height: fit-content;
-            display: grid;
-            grid-template-columns: auto auto;
-            grid-gap: 2em;
-
-        }
-        .grid :hover{
-            transform: scale(0.9);
-            border-radius: 15%;
-            transition: all 1.5s ease;
-            border: solid 5px white;
-            
-        }
-
-
-        .fotos{
-            margin: auto;
-            width: 25em;
-            height: 25em;
-            border-radius: 50%;
-            border: solid 5px black;
-        }
-
-        .foto1{
-            background-image: url(./img/instlinux.gif);
-            background-position: center center;
-            background-size: cover;
-        }
-        .foto2{
-            background-image: url(./img/comando2.gif);
-            background-position: center center ;
-            background-size: cover;
-            
-        }
-        .foto3{
-            background-image: url(./img/html-intro.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        .foto4{
-            background-image: url(./img/cyber.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        }
-        @media screen and (min-width: 1500px){
-            .viewport-header {
-            justify-content: center;
-            position: absolute;
-            width: 80%;
-            margin-top: 2%;
-        }
-        .viewport-header h4{
-            font-size: 30px;
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-            margin-top: 1%;
-        }
-        .viewport-header h1{
-            text-align: center;
-            color: rgb(226, 221, 221);
-            text-shadow: 10px 10px 10px black;
-            font-size: 90px;
-        }
-        .contenedor2{
-            background-image: url(/img/cosa2.gif);
-            background-position: center center;
-            background-attachment: fixed;
-            
-            position: absolute;
-            margin: 15em auto auto auto;
-            width: 100%;
-            height: fit-content;
-            padding: 0em;
-            
-        }
-        .grid{
-            padding: 1.5em;
-            width: 80%;
-            margin: 0em auto 5em auto;
-            
-            border: solid black 10px;
-            border-radius: 10px;
-            height: fit-content;
-            display: grid;
-            grid-template-columns: auto auto;
-            grid-gap: 2em;
-
-        }
-        .grid :hover{
-            transform: scale(0.9);
-            border-radius: 15%;
-            transition: all 1.5s ease;
-            border: solid 5px white;
-            
-        }
-
-
-        .fotos{
-            margin: auto;
-            width: 30em;
-            height: 30em;
-            border-radius: 50%;
-            border: solid 5px black;
-        }
-
-        .foto1{
-            background-image: url(./img/instlinux.gif);
-            background-position: center center;
-            background-size: cover;
-        }
-        .foto2{
-            background-image: url(./img/comando2.gif);
-            background-position: center center ;
-            background-size: cover;
-            
-        }
-        .foto3{
-            background-image: url(./img/html-intro.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        .foto4{
-            background-image: url(./img/cyber.gif);
-            background-position: center center ;
-            background-size: cover;
-        }
-        }
+   
+    
+      @media screen and (max-width: 400px){
+          
+       .content {
+   position: absolute;
+   top: 0;
+  
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 30px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ 
+ img{
+     margin-top: 5vh;
+     width: 18em;
+ }
+ ol{
+     font-size: 15px;
+ }
+ .content p{
+   width: 100%;
+   margin-top: 10%;
+   font-size: 15px;
+ }
+ .content h1{
+   font-size: 20px;
+   
+   
+ }
+ .caja{
+   width: 40%;
+   margin-left: 0%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 2em;
+   margin-top: 35%;
+   
+ }
+ .myBtn {
+   width: 80px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+ 
+ }
+ .myBtn2 {
+   width: 80px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ #myBtn {
+   width: 80px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+      }
+      @media (min-width:400px) and (max-width: 494px) {
+          .content {
+   position: absolute;
+   top: 0;
+   background: rgba(0, 0, 0, 0.767);
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 30px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ img{
+     margin-top: 10vh;
+     width: 21em;
+ }
+ ol{
+     font-size: 20px;
+ }
+ .content p{
+   width: 100%;
+   margin-top: 10%;
+   font-size: 20px;
+ }
+ .content h1{
+   font-size: 26px;
+   
+ }
+ .caja{
+   width: 40%;
+   
+   margin-left: 0%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 2.5em;
+   margin-top: 10%;
+   
+ }
+ .myBtn {
+   width: 90px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+ 
+ }
+ .myBtn2 {
+   width: 90px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ #myBtn {
+   width: 90px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+      }
+      @media (min-width:494px) and (max-width:680px){
+         *{
+   box-sizing: border-box;
+   margin: 0px;
+ }
+ 
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+   position: fixed;
+   left: 0;
+   min-height: 100%;
+   min-width: 100%;
+ 
+ }
+ /* Add some content at the bottom of the video/page */
+ .content {
+   position: absolute;
+   top: 0;
+   background: rgba(0, 0, 0, 0.767);
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 10px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ img{
+     margin-left: 10%;
+     width: 24em;
+     margin-top: 7vh;
+     
+ }
+ .content p{
+   width: 80%;
+  
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+ }
+ .primero{
+      margin-top: 10%;
+ }
+ .content h1{
+   font-size: 30px;
+   text-align: center;
+   padding-top: 50px;
+ }
+ 
+ /* Style the button used to pause/play the video */
+ #myBtn {
+   width: 120px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+ 
+ #myBtn:hover {
+   background: #ddd;
+   color: black;
+ }
+ .caja{
+   width: 30%;
+   margin-left: 3em;
+   margin-top: 35%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 1em;
+   
+ }
+ .myBtn {
+   width: 120px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ .myBtn a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn:hover {
+   background:  rgba(0, 0, 0, 0.5);
+ }
+ .myBtn2 {
+   width: 120px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ 
+ .myBtn2 a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn2:hover {
+   background:  rgba(0, 0, 0, 0.5)
+ }
+      }
+      
+     @media (min-width:680px) and (max-width:1000px){
+              
+       *{
+   box-sizing: border-box;
+   margin: 0px;
+ }
+ 
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+   position: fixed;
+   left: 0;
+   min-height: 100%;
+   min-width: 100%;
+ 
+ }
+ /* Add some content at the bottom of the video/page */
+ .content {
+   position: absolute;
+   top: 0;
+   background: rgba(0, 0, 0, 0.767);
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 20px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ img{
+     margin-left: 10%;
+     width: 25em;
+     margin-top: 7vh;
+     
+ }
+ .content p{
+   width: 80%;
+  
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+ }
+ .primero{
+      margin-top: 10%;
+ }
+ .content h1{
+   font-size: 40px;
+   text-align: center;
+   padding-top: 50px;
+ }
+ 
+ /* Style the button used to pause/play the video */
+ #myBtn {
+   width: 130px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+ 
+ #myBtn:hover {
+   background: #ddd;
+   color: black;
+ }
+ .caja{
+   width: 30%;
+   margin-left: 1em;
+   margin-top: 35%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 7em;
+   padding: 30px;
+  
+   
+ }
+ .myBtn {
+   width: 130px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ .myBtn a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn:hover {
+   background:  rgba(0, 0, 0, 0.5);
+ }
+ .myBtn2 {
+   width: 130px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ 
+ .myBtn2 a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn2:hover {
+   background:  rgba(0, 0, 0, 0.5)
+ }
+ }
+ @media (min-width:1000px) and (max-width:1050px) {
+     *{
+   box-sizing: border-box;
+   margin: 0px;
+ }
+ 
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+   position: fixed;
+   left: 0;
+   min-height: 100%;
+   min-width: 100%;
+ 
+ }
+ /* Add some content at the bottom of the video/page */
+ .content {
+   position: absolute;
+   top: 0;
+   background: rgba(0, 0, 0, 0.767);
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 50px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ img{
+     margin-left: 10%;
+     width: 40em;
+     margin-top: 7vh;
+     
+ }
+ .content p{
+   width: 80%;
+  
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+ }
+ .primero{
+      margin-top: 10%;
+ }
+ .content h1{
+   font-size: 60px;
+   text-align: center;
+   padding-top: 50px;
+ }
+ 
+ /* Style the button used to pause/play the video */
+ #myBtn {
+   width: 130px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+ 
+ #myBtn:hover {
+   background: #ddd;
+   color: black;
+ }
+ .caja{
+   width: 30%;
+   margin-left: 10em;
+   margin-top: 35%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 7em;
+  
+   
+ }
+ .myBtn {
+   width: 130px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ .myBtn a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn:hover {
+   background:  rgba(0, 0, 0, 0.5);
+ }
+ .myBtn2 {
+   width: 130px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ 
+ .myBtn2 a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn2:hover {
+   background:  rgba(0, 0, 0, 0.5)
+ }
+ } 
+       @media (min-width:1050px) and (max-width:1100px){
+         *{
+   box-sizing: border-box;
+   margin: 0px;
+ }
+ 
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+   position: fixed;
+   left: 0;
+   min-height: 100%;
+   min-width: 100%;
+ 
+ }
+ /* Add some content at the bottom of the video/page */
+ .content {
+   position: absolute;
+   top: 0;
+   background: rgba(0, 0, 0, 0.767);
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 50px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ img{
+     margin-left: 10%;
+     width: 50em;
+     margin-top: 7vh;
+     
+ }
+ .content p{
+   width: 80%;
+  
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+ }
+ .primero{
+      margin-top: 10%;
+ }
+ .content h1{
+   font-size: 60px;
+   text-align: center;
+   padding-top: 50px;
+ }
+ 
+ /* Style the button used to pause/play the video */
+ #myBtn {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+ 
+ #myBtn:hover {
+   background: #ddd;
+   color: black;
+ }
+ .caja{
+   width: 30%;
+   margin-left: 2em;
+   margin-top: 35%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 10em;
+ }
+ .myBtn {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ .myBtn a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn:hover {
+   background:  rgba(0, 0, 0, 0.5);
+ }
+ .myBtn2 {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ 
+ .myBtn2 a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn2:hover {
+   background:  rgba(0, 0, 0, 0.5)
+ }
+       }
+ 
+     @media (min-width:1100px) and (max-width:1280px) {
+         *{
+   box-sizing: border-box;
+   margin: 0px;
+ }
+ 
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+   position: fixed;
+   left: 0;
+   min-height: 100%;
+   min-width: 100%;
+ 
+ }
+ /* Add some content at the bottom of the video/page */
+ .content {
+   position: absolute;
+   top: 0;
+   background: rgba(0, 0, 0, 0.767);
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 50px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ img{
+     margin-left: 10%;
+     width: 55em;
+     margin-top: 7vh;
+     
+ }
+ ol{
+     font-size: 30px;
+ }
+ .content p{
+   width: 80%;
+  
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 30px;
+ }
+ 
+ .content h1{
+   font-size: 60px;
+   text-align: center;
+   padding-top: 50px;
+ }
+ 
+ /* Style the button used to pause/play the video */
+ #myBtn {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+ 
+ #myBtn:hover {
+   background: #ddd;
+   color: black;
+ }
+ .caja{
+   width: 30%;
+   margin-left: 2em;
+   margin-top: 35%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 10em;
+ }
+ .myBtn {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ .myBtn a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn:hover {
+   background:  rgba(0, 0, 0, 0.5);
+ }
+ .myBtn2 {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ 
+ .myBtn2 a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn2:hover {
+   background:  rgba(0, 0, 0, 0.5)
+ }
+ }
+      @media  (min-width: 1280px) and (max-width:1380px) {
        
- </style>
-    </style>
+       *{
+   box-sizing: border-box;
+   margin: 0px;
+ }
+ 
+ /* Style the video: 100% width and height to cover the entire window */
+ #myVideo {
+   position: fixed;
+   left: 0;
+   min-height: 100%;
+   min-width: 100%;
+ 
+ }
+ /* Add some content at the bottom of the video/page */
+ .content {
+   position: absolute;
+   top: 0;
+   background: rgba(0, 0, 0, 0.767);
+   color:  rgb(201, 201, 201);
+   width: 100%;
+   padding: 50px;
+   text-shadow: 5px 5px 10px black;
+   height: fit-content;
+ }
+ img{
+     margin-left: 10%;
+     width: 65em;
+     margin-top: 7vh;
+     
+ }
+ .content p{
+   width: 80%;
+  
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 30px;
+ }
+ .primero{
+      margin-top: 10%;
+ }
+ ol{
+     font-size: 30px;
+ }
+ .content h1{
+   font-size: 60px;
+   text-align: center;
+   padding-top: 50px;
+ }
+ 
+ /* Style the button used to pause/play the video */
+ #myBtn {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+   margin-top: 2%;
+   position: relative;
+ }
+ 
+ #myBtn:hover {
+   background: #ddd;
+   color: black;
+ }
+ .caja{
+   width: 30%;
+   margin-left: 2em;
+   margin-top: 35%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 17em;
+   
+ }
+ .myBtn {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ .myBtn a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn:hover {
+   background:  rgba(0, 0, 0, 0.5);
+ }
+ .myBtn2 {
+   width: 200px;
+   font-size: 18px;
+   padding: 10px;
+   border: none;
+   background: #000;
+   color: #fff;
+   cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+ }
+ 
+ .myBtn2 a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ .myBtn2:hover {
+   background:  rgba(0, 0, 0, 0.5)
+ }
+ }
+ @media (min-width:1380px){
+     *{
+     box-sizing: border-box;
+     margin: 0px;
+   }
+   
+   /* Style the video: 100% width and height to cover the entire window */
+   #myVideo {
+     position: fixed;
+     left: 0;
+     min-height: 100%;
+     min-width: 100%;
+   
+   }
+   /* Add some content at the bottom of the video/page */
+   .content {
+     position: absolute;
+     top: 0;
+     background: rgba(0, 0, 0, 0.767);
+     color:  rgb(201, 201, 201);
+     width: 100%;
+     padding: 50px;
+     text-shadow: 5px 5px 10px black;
+     height: fit-content;
+   }
+   img{
+       margin-left: 10%;
+       width: 65em;
+       margin-top: 7vh;
+       
+   }
+   .content p{
+     width: 80%;
+    
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 20px;
+   }
+   .primero{
+        margin-top: 10%;
+   }
+   .content h1{
+     font-size: 60px;
+     text-align: center;
+     padding-top: 50px;
+   }
+   
+   /* Style the button used to pause/play the video */
+   #myBtn {
+     width: 200px;
+     font-size: 18px;
+     padding: 10px;
+     border: none;
+     background: #000;
+     color: #fff;
+     cursor: pointer;
+     margin-top: 2%;
+     position: relative;
+   }
+   
+   #myBtn:hover {
+     background: #ddd;
+     color: black;
+   }
+   .caja{
+     width: 30%;
+     margin-left: 2em;
+     margin-top: 35%;
+     display: grid;
+     grid-template-columns: auto auto auto;
+     grid-gap: 20em;
+   }
+   .myBtn {
+     width: 200px;
+     font-size: 18px;
+     padding: 10px;
+     border: none;
+     background: #000;
+     color: #fff;
+     cursor: pointer;
+    background-color: black;
+    position: relative;
+    
+   }
+   .myBtn a{
+     text-decoration: none;
+     color: white;
+   }
+   
+   .myBtn:hover {
+     background:  rgba(0, 0, 0, 0.5);
+   }
+   .myBtn2 {
+     width: 200px;
+     font-size: 18px;
+     padding: 10px;
+     border: none;
+     background: #000;
+     color: #fff;
+     cursor: pointer;
+    background-color: black;
+    position: relative;
+    
+   }
+   
+   .myBtn2 a{
+     text-decoration: none;
+     color: white;
+   }
+   
+   .myBtn2:hover {
+     background:  rgba(0, 0, 0, 0.5)
+   }
+ }
+     
+     </style>
 </head>
 <body>
-    
-   <div class="contenedor">
-        <video src="./videos/video2.mp4" playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
-        </video>
-   </div>
-   <header class="viewport-header">
-        <h1>
-            Introducción a mi página web
-        </h1>
-        <h4>Elige el tema por el que quieres empezar </h4>
+    <!-- The video -->
+  <video autoplay muted loop id="myVideo">
+    <source src="/videos/Videofinal5.mp4" type="video/mp4">
+  </video>
 
-    </header>
+  <!-- Optional: some overlay text to describe the video -->
+  <div class="content">
+    <h1>La ciberseguridad</h1>
+    <p class="primero"> 
+        Los ciberataques están a la orden del día, cada año surgen nuevos ataques y el número atacantes aumenta debido 
+        a que cada vez la información es más accesible para todo el mundo y no solo eso sino que también existen programas
+        que facilitan mucho a los novatos hacer ataques potentes. Me estoy refiriendo concretamente a los exploits, programas creados
+        por autenticos hackers que puden vulnerar agujeros de seguridad en el sistema o engañar a las personas a través de ataques por ingeniería social.
+        <br>
+        <br>
+        Uno de los ataques de ingeniería social más comunes y con mayor tasa de éxito son los phishing, páginas webs fraudulentas que intentan aparentar
+        creibles y con una apariencia muy semejante a las páginas webs oficiales. Ahora voy a hacer una demostración de como un novato como yo en la ciberseguridad
+        es capaz de hacer una página web fraudulenta en internet.
+        <br>
+        Si quieres seguirme en el tutorial te advierto que estoy utilizando Ubuntus, si no sabes como instalarte ubuntus te recomiendo que veas el tutorial de <span style="font-weight: bolder; font-size: 20px;"><a target="_blank" style="text-decoration: none;" href="./InstalarLinux2.html">como instalar
+        una máquina virtual en windows</a></span>, ahí te explico como virtualizar una máquina e instalarte ubuntus de manera fácil y sencilla.
+        <br>
+    </p>
+    <p>
+        Para empezar con el tutorial debemos saber como utilizar git, git es una herramienta importante que nos permite crear instantáneas de nuestras carpetas en varias líneas del tiempo, pero bueno ahora solo voy a explicar lo básico
+        que hay que saber para el tutorial, que sería saber como podemos clonar un repositorio de Github. Para instalar git simplemente ponemos en la terminal sudo apt install git.
+    </p>
+    <img src="./img/phishing/git.png" alt="">
+    <p>Github es una plataforma gratuita para almacenamiento de código donde cualquier desarroyador puede publicar sus programas. Estos programas se almacenan en repositorios, que básicamente son carpetas en la nube donde se guardan los archivos del programa.
+        Y bien para clonar un repositorio debemos irnos al perfil, buscar el repositor y darle a copy link. El programa que voy a estar utilizando se llama <span style="font-weight: bold;"> <a style="text-decoration: none;" href=""> PyPhisher </a> </span> , por el nombre ya podemos intuir que está escrito en python. El programa tiene ya una serie de plantillas html preinstaladas, lo único que debemos hacer es
+        indicarle la plantilla y ya este se encarga de hacer el resto para que nuestra página pueda ser visible desde Internet.
+    </p>
+    <p>
+        Con el link copiado del repositorio tenemos que poner git clone "y el enlace del repositorio". Tenemos que saber que cuando clanamos el repositorio la carpeta se almacena en el direcotior actual donde nos encontremos, por eso yo voy a situarme en el Escritorio.   
+    </p>
+    <img src="./img/phishing/cap1.png" alt="">
+    <p>
+        Una vez que tenemos el repositorio en local simplemente seguimos las instrucciones  de su instalación que nos viene en la propia página web.<br>
+        1º Instalamos sus dependencias.
+    </p>
+    <img src="./img/phishing/cap2.png" alt="">
+    <!-- Use a button to pause/play the video with JavaScript -->
+    <p>2º Nos metemos en la carpeta e instalamos los requerimientos necesarios con el siguiente comando, pip3 install -r files/requirements.txt</p>
+    <img src="./img/phishing/cap3.png" alt="">
+    <p>Preguntará si deseamos continuar, le damos a la S para confirmar. Una vez instalado volvemos a ejecutar el comando anterior para instalar las dependecias.</p>
+    <img src="./img/phishing/cap4.png" alt="">
+    <p>3º Ejecutamos el programa</p>
+    <img src="./img/phishing/cap6.png" alt="">
+    <p>Luego nos preguntará si tenemos un token de ngrok, simplemento le damos a la n indicandole que no y enter, lo mismo con los demás</p>
+    <img src="./img/phishing/cap7.png" alt="">
+    <p>Nos mostrará todas las plantillas que tenemos a disposición para hacer el phishing, yo cogeré el 1 para la demostración, será la página Login de Facebook. Si conseguimos convecer a la víctima a que se registre pensando que está en facebook
+        podremos ver en texto plano su contraseña. 
+    </p>
+    <img src="./img/phishing/cap8.png" alt="">
+   
+    <img src="./img/phishing/cap9.png" alt="">
+    <p>
+        Luego nos hará una pregunta, le damos a que no y enter, en la siguiente opción simplemente le damos al enter.
+    </p>
+    <img src="./img/phishing/cap10.png" alt="">
+    <p>Ahora nos pedirá una url de redirección, esta opción nos permite que cuando la víctima escriba sus credenciales y le de al enter la página lo redireccione a la págian ofcial de Facebook, de esta manera pensará que a escrito mal la contraseña y simplemente volverá a escribirlo pero ya en la página oficial de Facebook, de esta manera no sospechará nada.<br>
+    </p>
+    <img src="./img/phishing/cap11.png" alt="">
     
-    <div class="contenedor2">
-        <div class="grid">
-            <div class="fotos foto1"></div>
-            <div class="fotos foto2"></div>
-            <div class="fotos foto3"></div>
-            <div class="fotos foto4"></div>
-        </div>
-        
+    <p>Una vez hecho todo esto nos mostrará todas la url que tenemos a nuestra disposición, no todas funcionan, por ejemplo en mi caso la ngrok no me va.</p>
+    <img src="./img/phishing/cap12.png" alt="">
+    <p>Con la siguiente opción podremos "maquillar" nuestra url a primera vista, es decir podemos hacer una url que se llame facebook.com-login y cuando pinche en el enlace le redireccione a nuestra página web. Si no queremos hacer este paso podemos simplemente darle al enter y entonces estaremos a la escucha hasta 
+        que la víctima nos proporcione las credenciales. 
+    </p>
+    <img src="./img/phishing/cap13.png" alt="">
+    <p>Ahora si quieremos hacer la prueba podemos acceder a la url custom y probar a ver si funciona </p>
+    <img src="./img/phishing/cap14.png" alt="">
+    <p>Cuando la víctima le de a enviar nos aparecerá en la terminal sus credenciales así como su ip, el sistema operativo, el tipo de navegador etc</p>
+    <img src="./img/phishing/cap15.png" alt="">
+    <p>He de decir que esta práctica la hago solo con fines eductivos para enseñar los riesgos a los que estamos expuestos, no se debe poner en práctica en ningún caso porque podéis meteros en serios problemas. </p>
+    
+    <h1>Como detectar este tipo de ataques</h1>
+    <p> En apariencia es muy dificil que tedes cuenta sin embargo lo que podemos hacer es revisar siempre la url a la que estamos accediendo, normalmete las url oficiales se ven claramente al principio y tienen una longitud corta. </p>
+    <p>Otra forma de detectaro es revisando el certificado digital de la siguiente manera</p>
+    <img src="./img/phishing/cap16.png" alt="">
+    <p>Para ver el certificado pinchamos en la última opción</p>
+    <img src="./img/phishing/cap17.png" alt="">
+    <img src="./img/phishing/cap18.png" alt="">
+    
+    
+
+
+    <div class="caja">
+      <button class="myBtn"><a href="">Home</a></button>
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+      <button class="myBtn2"><a href="">Next</a></button>
     </div>
+  </div>
+  <script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+    
+    // Get the button
+    var btn = document.getElementById("myBtn");
+    
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+</body>
 </html>

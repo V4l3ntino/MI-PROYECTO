@@ -988,7 +988,7 @@
         Los ciberataques están a la orden del día, cada año surgen nuevos ataques y el número atacantes aumenta debido 
         a que cada vez la información es más accesible para todo el mundo y no solo eso sino que también existen programas
         que facilitan mucho a los novatos hacer ataques potentes. Me estoy refiriendo concretamente a los exploits, programas creados
-        por autenticos hackers que puden vulnerar agujeros de seguridad en el sistema o engañar a las personas a través de ataques de ingeniería social.
+        por autenticos hackers que puden vulnerar agujeros de seguridad en el sistema o engañar a las personas a través de ataques por ingeniería social.
         <br>
         <br>
         Uno de los ataques de ingeniería social más comunes y con mayor tasa de éxito son los phishing, páginas webs fraudulentas que intentan aparentar
@@ -1006,7 +1006,7 @@
     <img src="./img/phishing/git.png" alt="">
     <p>Github es una plataforma gratuita para almacenamiento de código donde cualquier desarroyador puede publicar sus programas. Estos programas se almacenan en repositorios, que básicamente son carpetas en la nube donde se guardan los archivos del programa.
         Y bien para clonar un repositorio debemos irnos al perfil, buscar el repositor y darle a copy link. El programa que voy a estar utilizando se llama <span style="font-weight: bold;"> <a style="text-decoration: none;" href=""> PyPhisher </a> </span> , por el nombre ya podemos intuir que está escrito en python. El programa tiene ya una serie de plantillas html preinstaladas, lo único que debemos hacer es
-        indicarle la plantilla, y ya este se encarga de hacer el resto para que nuestra página pueda ser visible desde Internet.
+        indicarle la plantilla y ya este se encarga de hacer el resto para que nuestra página pueda ser visible desde Internet.
     </p>
     <p>
         Con el link copiado del repositorio tenemos que poner git clone "y el enlace del repositorio". Tenemos que saber que cuando clanamos el repositorio la carpeta se almacena en el direcotior actual donde nos encontremos, por eso yo voy a situarme en el Escritorio.   
@@ -1020,7 +1020,6 @@
     <!-- Use a button to pause/play the video with JavaScript -->
     <p>2º Nos metemos en la carpeta e instalamos los requerimientos necesarios con el siguiente comando, pip3 install -r files/requirements.txt</p>
     <img src="./img/phishing/cap3.png" alt="">
-    <p>Si te sale el mensaje de error como a mí simplemente seguimos el consejo que nos pone abajo e instalamos la que nos sugiere herramienta. </p>
     <p>Preguntará si deseamos continuar, le damos a la S para confirmar. Una vez instalado volvemos a ejecutar el comando anterior para instalar las dependecias.</p>
     <img src="./img/phishing/cap4.png" alt="">
     <p>3º Ejecutamos el programa</p>
@@ -1041,7 +1040,7 @@
     </p>
     <img src="./img/phishing/cap11.png" alt="">
     
-    <p>Una vez hecho todo esto nos mostrará todas la url que tenemos a nuestra disposición, no todas funcionan, por ejemplo en mi caso la ngrok no me va pero la otra resto sí.</p>
+    <p>Una vez hecho todo esto nos mostrará todas la url que tenemos a nuestra disposición, no todas funcionan, por ejemplo en mi caso la ngrok no me va.</p>
     <img src="./img/phishing/cap12.png" alt="">
     <p>Con la siguiente opción podremos "maquillar" nuestra url a primera vista, es decir podemos hacer una url que se llame facebook.com-login y cuando pinche en el enlace le redireccione a nuestra página web. Si no queremos hacer este paso podemos simplemente darle al enter y entonces estaremos a la escucha hasta 
         que la víctima nos proporcione las credenciales. 
@@ -1049,7 +1048,7 @@
     <img src="./img/phishing/cap13.png" alt="">
     <p>Ahora si quieremos hacer la prueba podemos acceder a la url custom y probar a ver si funciona </p>
     <img src="./img/phishing/cap14.png" alt="">
-    <p>Cuando la víctima le de a enviar nos aparecerá en la terminal sus credenciales así como su ip, el sistema operativo que ha utilizado, el tipo de navegador etc</p>
+    <p>Cuando la víctima le de a enviar nos aparecerá en la terminal sus credenciales así como su ip, el sistema operativo, el tipo de navegador etc</p>
     <img src="./img/phishing/cap15.png" alt="">
     <p>He de decir que esta práctica la hago solo con fines eductivos para enseñar los riesgos a los que estamos expuestos, no se debe poner en práctica en ningún caso porque podéis meteros en serios problemas. </p>
     
@@ -1057,6 +1056,7 @@
     <p> En apariencia es muy dificil que tedes cuenta sin embargo lo que podemos hacer es revisar siempre la url a la que estamos accediendo, normalmete las url oficiales se ven claramente al principio y tienen una longitud corta. </p>
     <p>Otra forma de detectaro es revisando el certificado digital de la siguiente manera</p>
     <img src="./img/phishing/cap16.png" alt="">
+    <p>Para ver el certificado pinchamos en la última opción</p>
     <img src="./img/phishing/cap17.png" alt="">
     <img src="./img/phishing/cap18.png" alt="">
     

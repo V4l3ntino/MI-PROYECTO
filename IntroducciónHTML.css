@@ -1,0 +1,27 @@
+.tabla{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 2em;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.listaordenada{
+    height: fit-content;
+    width: 40%;
+    margin: auto;
+    margin-top: 2em;
+    padding: 10px;
+    border-radius: 20px;
+}
+.listanordenada{
+    height: fit-content;
+    width: 40%;
+    margin: auto;
+    margin-top: 2em;
+    background-color: rgba(0, 0, 0, 0.685);
+    padding: 10px;
+    border-radius: 20px;
+}

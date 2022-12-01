@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./InstalarLinux.css">
     <link rel="stylesheet" href="./ComandosBásicos.css">
     <link rel="icon" type="image/jpg" href="/img/FAVICON/lobo5.png"/>
+    <link rel="stylesheet" href="./IntroducciónHTML.css">
 </head>
 <body>
         <!-- The video -->
@@ -34,12 +35,6 @@
 
           </dd>
         </dl>
-        
-        <p>
-            Recomiendo que si vas a empezar en esto utilices Visual Studio Code porque es mucho más comodo a la hora 
-            de escribir etiquetas.
-            Primero creamos un fichero que tenga la extensión .html, por ejemplo Mipráctica.html.
-        </p>
         <p>
             Una estructura HTML se empieza con la etiqueta "html" y acaba con " /html". Ambas etiquetas se deben poner dentro del signo mayor y menor <>. <br>
             Todo lo que esté en medio será la página web. Dentro de "html" se encuentran 2 partes diferenciadas.
@@ -48,17 +43,18 @@
             La primera que se suele estudiar es "title" , que indica el título de la página (lo que el navegador pone en la parte superior izquierda).
         </p>
         <p>
-            La segunda parte es "body""/body"(lo pongo entre comillas para que se muestre en pantalla, vosotros teneir que ponerlo entre <>). 
+            La segunda parte es "body""/body"(lo pongo entre comillas para que se muestre en pantalla, vosotros teneis que ponerlo entre <>). 
             Aquí va propiamente el contenido de la página: fotos, párrafos, formularios, etc. Por ejemplo, siguiendo con el ejemplo de la página anterior, 
             el siguiente código, podemos cambiar el título de la página.
         </p>
         <h1>Tipos de elementos</h1>
         <p>
             La etiqueta p sirve para escribir un párrafo de texto, entre estas etiquetas será donde nosotros 
-            podemos escribit todo el texto que queramos.
+            podemos escribir todo el texto que queramos. En visual studio podemos rellenar con texto escribiendo Lorem y dándole al tabulador. 
         </p>
+        
         <p>
-            La etiqueta "div" sirve como contenedor, es decir que es como una caja donde nosotros podemos meterle otros elementos
+            La etiqueta "div" sirve como contenedor, dentro podemos meterle otros elementos
             como puede ser párrafos o imágenes. Dicho a groso modo esta etiqueta nos sirve para encapsular otros elementos. 
         </p>
         <p>
@@ -66,17 +62,108 @@
         </p>
         <p>
             La etiqueta ol: podemos crear listas numeradas, para ello dentro de estas etiquetas debemos meter otra etiqueta denominada li.
-            Una manera de recordarlo esque "ol" es la abreviación de "Orden List"
+            Una manera de recordarlo esque "ol" es la abreviación de "Orden List" y "li" de lista.
             
         </p>
+        <div class="listaordenada">
+            <ol>
+                <li>
+                    Ejemplo1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, quisquam nisi? Ex assumenda eum totam doloremque velit eveniet voluptatibus earum non necessitatibus nobis voluptate, architecto impedit rerum eaque officiis nam?
+                </li>
+                <li>
+                    Ejemplo2: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, fuga. Tenetur totam eaque mollitia possimus! Autem debitis rerum beatae? Minus inventore optio vel quo at nam? Veritatis ab quibusdam aspernatur!
+                </li>
+            </ol>
+        </div>
+        <img src="./img/HTML/cap11.png" alt="">
         <p>
             La etiqueta ul: podemos crear listas no numeradas, esta sigue la mima estructura que las listas numeradas.
         </p>
+        <div class="listanordenada">
+            <ul>
+                <li>
+                    Ejemplo1: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, quisquam nisi? Ex assumenda eum totam doloremque velit eveniet voluptatibus earum non necessitatibus nobis voluptate, architecto impedit rerum eaque officiis nam?
+                </li>
+                <li>
+                    Ejemplo2: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, fuga. Tenetur totam eaque mollitia possimus! Autem debitis rerum beatae? Minus inventore optio vel quo at nam? Veritatis ab quibusdam aspernatur!
+                </li>
+            </ul>
+        </div>
+        <img src="./img/HTML/cap22.png" alt="" class="">
         <p>
-            Si queremos meter una imagen podemos utilizar la etiqueta img, dentro de esta debemos meterle dirección de la ruta donde se encuntra
+            Si queremos meter una imagen podemos utilizar la etiqueta img, dentro de esta debemos meterle la dirección de la ruta donde se encuntra
             nuestras imágenes. Siempre debemos utilizar rutas relativas porque sino nos dará problemas a la hora de subir nuestra página web a un 
-            hosting. Esto se debe a que el la estructura de los directorios de nuestra computadora no es la misma a la estructura de un servidor.
+            hosting. Esto se debe a que la estructura de los directorios de nuestra computadora no es la misma a la estructura de un servidor.
         </p>
+        <p>
+            Con la etiqueta table podemos crear tablas, dentro de esta etiqueta se utiliza otros dos elementos que son "td" y "tr". Con "td" creamos las columnas y con "tr" las filas.
+            También se utiliza "th" que sirve para crear una fila como cabezera.  Aquí os muestro un ejemplo.
+        </p>
+        <div class="tabla">
+            <table>
+                <th></th>
+                <th>IPHONE</th>
+                <th>APPLE</th>
+                <th>SAMSUNG</th>
+                <th>SONY</th>
+                <!-- Esa es la fila1 -->
+                <tr class="F1">     
+                    
+                    <td class="f1">Tamaño de pantalla</td>
+                    <td>6.43 Pulgadas </td>
+                    <td>6.5 Pulgadas</td>
+                    <td>6.1 Pulgadas</td>
+                    <td>6.1 Pulgadas</td>
+                </tr>
+                <!-- Esa es la fila2 -->
+                <tr class="F2">
+                    
+                    <td class="f2">Resolución (píxeles)</td>
+                    <td>8 Megapíxeles</td>
+                    <td>1080x2040</td>
+                    <td>12 Megapíxeles</td>
+                    <td>12 Megapíxeles</td>
+                </tr>
+                <!-- Esa es la fila3 -->
+                <tr class="F1">
+                    
+                    <td class="f3">Peso</td>
+                    <td>179 gramos</td>
+                    <td>190 gramos</td>
+                    <td>164 gramos</td>
+                    <td>172 gramos</td>
+                </tr>
+                <!-- Esa es la fila4 -->
+                <tr class="F2">
+                    
+                    <td class="f4">RAM</td>
+                    <td>6 GB</td>
+                    <td>6 GB</td>
+                    <td>6 GB</td>
+                    <td>8 GB</td>
+                </tr>
+                <!-- Esa es la fila5 -->
+                <tr class="F1">
+                    
+                    <td class="f5">Sistema Operativo</td>
+                    <td>Android 10.0</td>
+                    <td>Android 12.0</td>
+                    <td>IOS 16</td>
+                    <td>Android 12</td>
+                </tr>
+                <!-- Esa es la fila6 -->
+                <tr class="F2">
+                    
+                    <td class="f6">Precio</td>
+                    <td>200€</td>
+                    <td>336€</td>
+                    <td>778€</td>
+                    <td>1049€</td>
+                </tr>
+            </table>
+        </div>
+        <img src="./img/HTML/cap1.png" alt="">
+        <img src="./img/HTML/cap2.png" alt="">
 
         <div class="caja">
         <button class="myBtn"><a href="">Home</a></button>

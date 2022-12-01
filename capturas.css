@@ -25,60 +25,92 @@
     
 }
 .foto1{
-    background-image: url(./img/virtualbox/cap1.png);
+    background-image: url(./img/CERTIFICADOS/cap1.jpeg);
     background-size: cover;
     background-position: center center;
 }
 .foto2{
-    background-image: url(./img/virtualbox/cap2.png);
+    background-image: url(./img/CERTIFICADOS/cap2.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .foto3{
-    background-image: url(./img/virtualbox/cap3.png);
+    background-image: url(./img/CERTIFICADOS/cap3.jpeg);
     background-size: cover;
     background-position: center center;
 }
 
 .foto4{
-    background-image: url(./img/phishing/
+    background-image: url(./img/CERTIFICADOS/cap4.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 .foto5{
-    background-image: url(./img/comandos/cap1.png);
+    background-image: url(./img/CERTIFICADOS/cap5.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 .foto6{
-    background-image: url(./img/./img/comandos/cap2);
+    background-image: url(./img/CERTIFICADOS/cap6.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 .foto7{
-    background-image: url(./img/comandos/cap3.png);
+    background-image: url(./img/CERTIFICADOS/cap7.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 .foto8{
-    background-image: url(./img/comandos/cap4.png);
+    background-image: url(./img/CERTIFICADOS/cap8.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 .foto9{
-    background-image: url(./img/comandos/cap5.png);
+    background-image: url(./img/CERTIFICADOS/cap9.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 .foto10{
-    background-image: url(./img/comandos/cap6.png);
+    background-image: url(./img/CERTIFICADOS/cap10.jpeg);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto11{
+    background-image: url(./img/CERTIFICADOS/cap11.jpeg);
+    background-size: cover; 
+    background-position: center center;
+}
+
+.foto12{
+    background-image: url(./img/CERTIFICADOS/cap12.jpeg);
+    background-size: cover; 
+    background-position: center center;
+}
+
+.foto13{
+    background-image: url(./img/CERTIFICADOS/cap13.jpeg);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto14{
+    background-image: url(./img/CERTIFICADOS/cap14.jpeg);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto15{
+    background-image: url(./img/CERTIFICADOS/cap15.jpeg);
+    background-size: cover; 
+    background-position: center center;
+}
+.foto16{
+    background-image: url(./img/CERTIFICADOS/cap15.jpeg);
     background-size: cover; 
     background-position: center center;
 }
 
 .grid :hover{
-    transform: scale(5);
+    transform: scale(1.5);
     border-radius: 20px;
     transition: 0.6s all ease;
     border: purple 5px solid;

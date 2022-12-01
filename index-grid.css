@@ -250,10 +250,10 @@ text-align: center;
 }
 .caja{
 width: 40%;
-margin-left: 0%;
+margin-left: 5%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 2em;
+grid-template-columns: auto auto ;
+grid-gap: 7em;
 margin-top: 35%;
 
 }
@@ -323,11 +323,10 @@ text-align: center;
 }
 .caja{
 width: 40%;
-
-margin-left: 0%;
+margin-left: 5%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 2.5em;
+grid-template-columns: auto auto;
+grid-gap: 10em;
 margin-top: 10%;
 
 }
@@ -433,11 +432,11 @@ color: black;
 }
 .caja{
 width: 30%;
-margin-left: 3em;
+margin-left: 15%;
 margin-top: 35%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 1em;
+grid-template-columns: auto auto ;
+grid-gap: 10em;
 
 }
 .myBtn {
@@ -550,11 +549,11 @@ color: black;
 }
 .caja{
 width: 30%;
-margin-left: 1em;
+margin-left: 5%;
 margin-top: 35%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 7em;
+grid-template-columns: auto auto ;
+grid-gap: 20em;
 padding: 30px;
 
 
@@ -650,7 +649,7 @@ padding-top: 50px;
 
 /* Style the button used to pause/play the video */
 #myBtn {
-width: 130px;
+width: 200px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -667,16 +666,16 @@ color: black;
 }
 .caja{
 width: 30%;
-margin-left: 10em;
+margin-left: 5em;
 margin-top: 35%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 7em;
+grid-template-columns: auto auto ;
+grid-gap: 20em;
 
 
 }
 .myBtn {
-width: 130px;
+width: 200px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -783,11 +782,11 @@ color: black;
 }
 .caja{
 width: 30%;
-margin-left: 2em;
+margin-left: 10%;
 margin-top: 35%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 10em;
+grid-template-columns: auto auto;
+grid-gap: 25em;
 }
 .myBtn {
 width: 200px;
@@ -902,8 +901,8 @@ width: 30%;
 margin-left: 2em;
 margin-top: 35%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 10em;
+grid-template-columns: auto auto ;
+grid-gap: 35em;
 }
 .myBtn {
 width: 200px;
@@ -1020,8 +1019,8 @@ width: 30%;
 margin-left: 2em;
 margin-top: 35%;
 display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 17em;
+grid-template-columns: auto auto ;
+grid-gap: 35em;
 
 }
 .myBtn {
@@ -1135,8 +1134,8 @@ img{
   margin-left: 2em;
   margin-top: 35%;
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 20em;
+  grid-template-columns: auto auto ;
+  grid-gap: 50em;
 }
 .myBtn {
   width: 200px;

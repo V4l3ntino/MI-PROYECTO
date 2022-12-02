@@ -144,7 +144,7 @@
   
   }
       
-  @media screen and (max-width: 400px){
+@media screen and (max-width: 400px){
             
     .content {
   position: absolute;
@@ -308,8 +308,8 @@
   margin-top: 2%;
   position: relative;
   }
-   }
-   @media (min-width:494px) and (max-width:680px){
+}
+@media (min-width:494px) and (max-width:680px){
       *{
   box-sizing: border-box;
   margin: 0px;
@@ -556,8 +556,8 @@
   .myBtn2:hover {
   background:  rgba(0, 0, 0, 0.5)
   }
-  }
-  @media (min-width:1000px) and (max-width:1050px) {
+}
+@media (min-width:1000px) and (max-width:1050px) {
   *{
   box-sizing: border-box;
   margin: 0px;
@@ -679,8 +679,8 @@
   .myBtn2:hover {
   background:  rgba(0, 0, 0, 0.5)
   }
-  } 
-    @media (min-width:1050px) and (max-width:1100px){
+} 
+@media (min-width:1050px) and (max-width:1100px){
       *{
   box-sizing: border-box;
   margin: 0px;
@@ -802,7 +802,7 @@
   }
     }
   
-  @media (min-width:1100px) and (max-width:1280px) {
+@media (min-width:1100px) and (max-width:1280px) {
       *{
   box-sizing: border-box;
   margin: 0px;
@@ -923,8 +923,8 @@
   .myBtn2:hover {
   background:  rgba(0, 0, 0, 0.5)
   }
-  }
-   @media  (min-width: 1280px) and (max-width:1380px) {
+}
+@media  (min-width: 1280px) and (max-width:1380px) {
     
     *{
   box-sizing: border-box;
@@ -1049,8 +1049,8 @@
   .myBtn2:hover {
   background:  rgba(0, 0, 0, 0.5)
   }
-  }
-  @media (min-width:1380px){
+}
+@media (min-width:1380px){
   *{
   box-sizing: border-box;
   margin: 0px;
@@ -1171,4 +1171,4 @@
   .myBtn2:hover {
   background:  rgba(0, 0, 0, 0.5)
   }
-  }
+}

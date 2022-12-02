@@ -11,20 +11,19 @@
     <title>Index</title>
     <script>  
       var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-if (prevScrollpos > currentScrollPos) {
-  document.getElementById("navbar").style.top = "0";
-} else {
-  document.getElementById("navbar").style.top = "-150px";
-}
-prevScrollpos = currentScrollPos;
-}
-  </script>
+      window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-150px";
+      }
+      prevScrollpos = currentScrollPos;
+      }
+    </script>
 </head>
 
 <body>
-    
     <div id="navbar">
       <h1>Introducción a la Informática</h1>
       
@@ -36,8 +35,8 @@ prevScrollpos = currentScrollPos;
       <a href="./Formulario.html" id="contact">Login</a>
       <a href="./index-grid.html" id="menu">Menú</a>
     </div>
-<div class="bg-text">
-  
+  <div class="bg-text">
+
     <p>
       Bienvenidos a mi proyecto, esta es mi primera página web. Aquí tengo pensado publicar información acerca
           de todo lo relacionado con la informática.
@@ -65,15 +64,16 @@ prevScrollpos = currentScrollPos;
         <br>
         <br>
         
-  </p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/wVeLg2PsVPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <audio loop controls autoplay>
-    <source src="./audio/audio2.mp3" type="audio/mp3">
-    Lo sentimos no se puede reproducir el audio 
-  </audio>
-</div>
-<footer>
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wVeLg2PsVPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <audio loop controls autoplay>
+      <source src="./audio/audio2.mp3" type="audio/mp3">
+      Lo sentimos no se puede reproducir el audio 
+    </audio>
+  </div>
+  <footer>
   <img src="./img/FAVICON/lobo5.png" alt="">
-</footer>
+  </footer>
+</body>
 
 </html>

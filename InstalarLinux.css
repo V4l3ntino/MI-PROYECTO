@@ -205,14 +205,14 @@ dl dt {
   }
           
   .content {
-position: absolute;
-top: 0;
+  position: absolute;
+  top: 0;
 
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 30px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 30px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
 }
 
 img{
@@ -286,7 +286,7 @@ margin-top: 35%;
   position: relative;
   }
  }
- @media (min-width:400px) and (max-width: 494px) {
+@media (min-width:400px) and (max-width: 494px) {
   .tabla{
       height: fit-content;
       width: fit-content;
@@ -315,86 +315,86 @@ margin-top: 35%;
       font-size: 20px;
   }
      .content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 30px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
   width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-ol{
-font-size: 20px;
-}
-.content p{
-width: 100%;
-margin-top: 10%;
-font-size: 20px;
-}
-.content h1{
-font-size: 26px;
+  padding: 30px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  ol{
+  font-size: 20px;
+  }
+  .content p{
+  width: 100%;
+  margin-top: 10%;
+  font-size: 20px;
+  }
+  .content h1{
+  font-size: 26px;
 
-}
-.caja{
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2em;
+  margin-top: 35%;
+
+  }
+  .myBtn {
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
   position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 2em;
-margin-top: 35%;
 
-}
-.myBtn {
-width: 100px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  }
+  .myBtn2 {
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
+  }
+  #myBtn {
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+  }
 }
-.myBtn2 {
-width: 100px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
-
-}
-#myBtn {
-width: 100px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
- }
- @media (min-width:494px) and (max-width:680px){
+@media (min-width:494px) and (max-width:680px){
   .tabla{
       height: fit-content;
       width: fit-content;
@@ -426,126 +426,126 @@ position: relative;
   }
 
     *{
-box-sizing: border-box;
-margin: 0px;
-}
+  box-sizing: border-box;
+  margin: 0px;
+  }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
 
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 10px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
   width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-.content p{
-width: 80%;
+  padding: 10px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .content p{
+  width: 80%;
 
-margin-left: auto;
-margin-right: auto;
-font-size: 20px;
-}
-.primero{
- margin-top: 10%;
-}
-.content h1{
-font-size: 30px;
-text-align: center;
-padding-top: 50px;
-}
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  }
+  .primero{
+  margin-top: 10%;
+  }
+  .content h1{
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
+  /* Style the button used to pause/play the video */
+  #myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
   position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 2em;
-margin-top: 35%;
+  }
 
-}
-.myBtn {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2em;
+  margin-top: 35%;
 
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
+  }
+  .myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  }
+  .myBtn a{
+  text-decoration: none;
+  color: white;
+  }
 
-}
+  .myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
+  }
 
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
+  .myBtn2 a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+  }
 }
- }
  
 @media (min-width:680px) and (max-width:1000px){
   .tabla{
@@ -579,125 +579,125 @@ background:  rgba(0, 0, 0, 0.5)
   }
          
   *{
-box-sizing: border-box;
-margin: 0px;
-}
+  box-sizing: border-box;
+  margin: 0px;
+  }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
 
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 20px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
   width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-.content p{
-width: 80%;
+  padding: 20px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .content p{
+  width: 80%;
 
-margin-left: auto;
-margin-right: auto;
-font-size: 20px;
-}
-.primero{
- margin-top: 10%;
-}
-.content h1{
-font-size: 40px;
-text-align: center;
-padding-top: 50px;
-}
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  }
+  .primero{
+  margin-top: 10%;
+  }
+  .content h1{
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+  }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
+  /* Style the button used to pause/play the video */
+  #myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
   position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 7em;
-margin-top: 35%;
+  }
 
-}
-.myBtn {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7em;
+  margin-top: 35%;
 
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
+  }
+  .myBtn {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  }
+  .myBtn a{
+  text-decoration: none;
+  color: white;
+  }
 
-}
+  .myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+  width: 130px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
+  }
 
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
-}
+  .myBtn2 a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+  }
 }
 @media (min-width:1000px) and (max-width:1050px) {
   .tabla{
@@ -730,128 +730,128 @@ background:  rgba(0, 0, 0, 0.5)
       font-size: 20px;
   }
 
-*{
-box-sizing: border-box;
-margin: 0px;
-}
+  *{
+  box-sizing: border-box;
+  margin: 0px;
+  }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
 
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 50px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
   width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-.content p{
-width: 80%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .content p{
+  width: 80%;
 
-margin-left: auto;
-margin-right: auto;
-font-size: 20px;
-}
-.primero{
- margin-top: 10%;
-}
-.content h1{
-font-size: 60px;
-text-align: center;
-padding-top: 50px;
-}
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  }
+  .primero{
+  margin-top: 10%;
+  }
+  .content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+  }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
+  /* Style the button used to pause/play the video */
+  #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
   position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 7em;
-margin-top: 35%;
+  }
 
-}
-.myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7em;
+  margin-top: 35%;
 
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
+  }
+  .myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  }
+  .myBtn a{
+  text-decoration: none;
+  color: white;
+  }
 
-}
+  .myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
+  }
 
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
-}
+  .myBtn2 a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+  }
 } 
-  @media (min-width:1050px) and (max-width:1100px){
+@media (min-width:1050px) and (max-width:1100px){
       .tabla{
           height: fit-content;
           width: fit-content;
@@ -882,127 +882,127 @@ background:  rgba(0, 0, 0, 0.5)
           font-size: 20px;
       }
 
-    *{
-box-sizing: border-box;
-margin: 0px;
-}
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
-
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 50px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
-  width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-.content p{
-width: 80%;
-
-margin-left: auto;
-margin-right: auto;
-font-size: 20px;
-}
-.primero{
- margin-top: 10%;
-}
-.content h1{
-font-size: 60px;
-text-align: center;
-padding-top: 50px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
-  position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 10em;
-margin-top: 35%;
-
-}
-.myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
-
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
-
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
-
-}
-
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
-
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
-}
+      *{
+  box-sizing: border-box;
+  margin: 0px;
   }
+
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
+  width: 100%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .content p{
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  }
+  .primero{
+  margin-top: 10%;
+  }
+  .content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+  }
+
+  /* Style the button used to pause/play the video */
+  #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+  }
+
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10em;
+  margin-top: 35%;
+
+  }
+  .myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
+
+  }
+  .myBtn a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
+
+  }
+
+  .myBtn2 a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+  }
+}
 
 @media (min-width:1100px) and (max-width:1280px) {
   .tabla{
@@ -1035,128 +1035,128 @@ background:  rgba(0, 0, 0, 0.5)
       font-size: 30px;
   }
     *{
-box-sizing: border-box;
-margin: 0px;
-}
+  box-sizing: border-box;
+  margin: 0px;
+  }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
 
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 50px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
   width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-ol{
-font-size: 30px;
-}
-.content p{
-width: 80%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  ol{
+  font-size: 30px;
+  }
+  .content p{
+  width: 80%;
 
-margin-left: auto;
-margin-right: auto;
-font-size: 30px;
-}
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  }
 
-.content h1{
-font-size: 60px;
-text-align: center;
-padding-top: 50px;
-}
+  .content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+  }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
+  /* Style the button used to pause/play the video */
+  #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
   position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 10em;
-margin-top: 35%;
+  }
 
-}
-.myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10em;
+  margin-top: 35%;
 
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
+  }
+  .myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  }
+  .myBtn a{
+  text-decoration: none;
+  color: white;
+  }
 
-}
+  .myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
+  }
 
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
+  .myBtn2 a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+  }
 }
-}
- @media  (min-width: 1280px) and (max-width:1380px) {
+@media  (min-width: 1280px) and (max-width:1380px) {
   .tabla{
       height: fit-content;
       width: fit-content;
@@ -1186,248 +1186,248 @@ background:  rgba(0, 0, 0, 0.5)
       border-radius: 20px;
   }
   *{
-box-sizing: border-box;
-margin: 0px;
-}
+  box-sizing: border-box;
+  margin: 0px;
+  }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
 
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 50px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
   width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-.content p{
-width: 80%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .content p{
+  width: 80%;
 
-margin-left: auto;
-margin-right: auto;
-font-size: 30px;
-}
-.primero{
- margin-top: 10%;
-}
-ol{
-font-size: 30px;
-}
-.content h1{
-font-size: 60px;
-text-align: center;
-padding-top: 50px;
-}
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  }
+  .primero{
+  margin-top: 10%;
+  }
+  ol{
+  font-size: 30px;
+  }
+  .content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+  }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
+  /* Style the button used to pause/play the video */
+  #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
   position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 17em;
-margin-top: 35%;
+  }
 
-}
-.myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 17em;
+  margin-top: 35%;
 
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
+  }
+  .myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  }
+  .myBtn a{
+  text-decoration: none;
+  color: white;
+  }
 
-}
+  .myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
+  }
 
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
-}
+  .myBtn2 a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+  }
 }
 @media (min-width:1380px){
-*{
-box-sizing: border-box;
-margin: 0px;
-}
+  *{
+  box-sizing: border-box;
+  margin: 0px;
+  }
 
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+  position: fixed;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
 
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 50px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-  position: relative;
-  display: block;
+  }
+  /* Add some content at the bottom of the video/page */
+  .content {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.767);
+  color:  rgb(201, 201, 201);
   width: 100%;
-  margin: 0 10%;
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  border-radius: 50px;
-  margin: auto;
-}
-.content p{
-width: 80%;
+  padding: 50px;
+  text-shadow: 5px 5px 10px black;
+  height: fit-content;
+  }
+  img{
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
+  }
+  .content p{
+  width: 80%;
 
-margin-left: auto;
-margin-right: auto;
-font-size: 20px;
-}
-.primero{
-   margin-top: 10%;
-}
-.content h1{
-font-size: 60px;
-text-align: center;
-padding-top: 50px;
-}
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  }
+  .primero{
+    margin-top: 10%;
+  }
+  .content h1{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 50px;
+  }
 
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
+  /* Style the button used to pause/play the video */
+  #myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
   position: relative;
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 17em;
-margin-top: 35%;
+  }
 
-}
-.myBtn {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  #myBtn:hover {
+  background: #ddd;
+  color: black;
+  }
+  .caja{
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 17em;
+  margin-top: 35%;
 
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
+  }
+  .myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 200px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
+  }
+  .myBtn a{
+  text-decoration: none;
+  color: white;
+  }
 
-}
+  .myBtn:hover {
+  background:  rgba(0, 0, 0, 0.5);
+  }
+  .myBtn2 {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
 
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
+  }
 
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
-}
+  .myBtn2 a{
+  text-decoration: none;
+  color: white;
+  }
+
+  .myBtn2:hover {
+  background:  rgba(0, 0, 0, 0.5)
+  }
 }

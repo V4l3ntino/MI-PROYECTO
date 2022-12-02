@@ -1,6 +1,4 @@
-.caja{
-    background-color: orangex;
-}
+
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -188,7 +186,6 @@
     width: fit-content;
     margin: 0 10%;
     margin: auto;
-    background-color: orange;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2em;
@@ -270,7 +267,6 @@
     width: fit-content;
     margin: 0 10%;
     margin: auto;
-    background-color: orange;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2em;
@@ -387,7 +383,6 @@
     width: fit-content;
     margin: 0 10%;
     margin: auto;
-    background-color: orange;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2em;
@@ -512,7 +507,6 @@
     width: 100%;
     justify-content: center;
     margin: auto;
-    background-color: orange;
   margin-top: 35%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -637,7 +631,6 @@
     width: 100%;
     justify-content: center;
     margin: auto;
-    background-color: orange;
   margin-top: 35%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -761,7 +754,6 @@
     width: 100%;
     justify-content: center;
     margin: auto;
-    background-color: orange;
   margin-top: 35%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -885,7 +877,6 @@
     width: 100%;
     justify-content: center;
     margin: auto;
-    background-color: orange;
   margin-top: 35%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -1011,12 +1002,10 @@
     width: 100%;
     justify-content: center;
     margin: auto;
-    background-color: orange;
   margin-top: 35%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 17em;
-  background-color: orange;
   
   }
   .myBtn {
@@ -1087,10 +1076,15 @@
   height: fit-content;
   }
   img{
-    margin-left: 10%;
-    width: 65em;
-    margin-top: 7vh;
-    
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 100px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -1126,13 +1120,15 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 2em;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
   margin-top: 35%;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20em;
-  background-color: orange;
+  grid-gap: 17em;
+  
   }
   .myBtn {
   width: 200px;

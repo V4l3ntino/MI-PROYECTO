@@ -216,8 +216,15 @@
   }
   
   img{
-  margin-top: 5vh;
-  width: 18em;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   ol{
   font-size: 15px;
@@ -233,8 +240,10 @@
   
   }
   .caja{
-  width: 40%;
-  margin-left: 0%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 2em;
@@ -242,40 +251,40 @@
   
   }
   .myBtn {
-  width: 80px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-  background-color: black;
-  position: relative;
-  
-  }
-  .myBtn2 {
-  width: 80px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-  background-color: black;
-  position: relative;
-  
-  }
-  #myBtn {
-  width: 80px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-  margin-top: 2%;
-  position: relative;
-  }
+    width: 80px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    background-color: black;
+    position: relative;
+    
+    }
+    .myBtn2 {
+    width: 80px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    background-color: black;
+    position: relative;
+    
+    }
+    #myBtn {
+    width: 80px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2%;
+    position: relative;
+    }
    }
    @media (min-width:400px) and (max-width: 494px) {
     .tabla{
@@ -316,8 +325,15 @@
   height: fit-content;
   }
   img{
-  margin-top: 10vh;
-  width: 21em;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   ol{
   font-size: 20px;
@@ -332,17 +348,18 @@
   
   }
   .caja{
-  width: 40%;
-  
-  margin-left: 0%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 2.5em;
-  margin-top: 10%;
+  grid-gap: 2em;
+  margin-top: 35%;
   
   }
   .myBtn {
-  width: 90px;
+  width: 100px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -354,7 +371,7 @@
   
   }
   .myBtn2 {
-  width: 90px;
+  width: 100px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -366,7 +383,7 @@
   
   }
   #myBtn {
-  width: 90px;
+  width: 100px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -433,10 +450,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 24em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -456,7 +478,7 @@
   
   /* Style the button used to pause/play the video */
   #myBtn {
-  width: 120px;
+  width: 130px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -472,16 +494,18 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 3em;
-  margin-top: 35%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 1em;
+  grid-gap: 2em;
+  margin-top: 35%;
   
   }
   .myBtn {
-  width: 120px;
+  width: 130px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -501,7 +525,7 @@
   background:  rgba(0, 0, 0, 0.5);
   }
   .myBtn2 {
-  width: 120px;
+  width: 130px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -579,10 +603,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 25em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -618,14 +647,14 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 1em;
-  margin-top: 35%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 7em;
-  padding: 30px;
-  
+  margin-top: 35%;
   
   }
   .myBtn {
@@ -726,10 +755,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 40em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -749,7 +783,7 @@
   
   /* Style the button used to pause/play the video */
   #myBtn {
-  width: 130px;
+  width: 200px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -765,17 +799,18 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 10em;
-  margin-top: 35%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 7em;
-  
+  margin-top: 35%;
   
   }
   .myBtn {
-  width: 130px;
+  width: 200px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -795,7 +830,7 @@
   background:  rgba(0, 0, 0, 0.5);
   }
   .myBtn2 {
-  width: 130px;
+  width: 200px;
   font-size: 18px;
   padding: 10px;
   border: none;
@@ -872,10 +907,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 50em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -911,12 +951,15 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 2em;
-  margin-top: 35%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10em;
+  margin-top: 35%;
+  
   }
   .myBtn {
   width: 200px;
@@ -1016,10 +1059,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 55em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   ol{
   font-size: 30px;
@@ -1056,12 +1104,15 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 2em;
-  margin-top: 35%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10em;
+  margin-top: 35%;
+  
   }
   .myBtn {
   width: 200px;
@@ -1159,10 +1210,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 65em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -1201,12 +1257,14 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 2em;
-  margin-top: 35%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 17em;
+  margin-top: 35%;
   
   }
   .myBtn {
@@ -1277,10 +1335,15 @@
   height: fit-content;
   }
   img{
-    margin-left: 10%;
-    width: 65em;
-    margin-top: 7vh;
-    
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -1316,12 +1379,15 @@
   color: black;
   }
   .caja{
-  width: 30%;
-  margin-left: 2em;
-  margin-top: 35%;
+    position: relative;
+    width: fit-content;
+    margin: 0 10%;
+    margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 20em;
+  grid-gap: 17em;
+  margin-top: 35%;
+  
   }
   .myBtn {
   width: 200px;

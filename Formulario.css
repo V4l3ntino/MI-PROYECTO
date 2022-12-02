@@ -1,11 +1,16 @@
 form{
-    padding-left: 25%;
+    align-items: center;
     
 
 }
+body{
+    height:900px;
+}
 .bg-text{
-    width: 30%;
-    border-radius: 20px;
+    width: fit-content;
+    position: relative;
+    
+    margin: 0 5%;
 }
 #username{
     height: 30px;
@@ -20,14 +25,10 @@ p{
     text-align: center;
 }
 @media (max-width:400px){
-    form{
-        padding-left: 10%;
-        
-    
-    }
     .bg-text{
-        width: 40%;
-        border-radius: 20px;
+        width: fit-content;
+        position: relative;
+        margin: 0 5%;
     }
     #username{
         height: 20px;
@@ -48,9 +49,9 @@ p{
     
     }
     .bg-text{
-        width: 40%;
-        border-radius: 20px;
-        
+        width: fit-content;
+        position: relative;
+        margin: 0 5%;
     }
     #username{
         height: 20px;
@@ -70,9 +71,9 @@ p{
     
     }
     .bg-text{
-        width: 40%;
-        border-radius: 20px;
-        
+        width: fit-content;
+        position: relative;
+        margin: 0 5%;
     }
     #username{
         height: 30px;

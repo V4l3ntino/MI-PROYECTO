@@ -1,3 +1,33 @@
+.tabla{
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  margin-top: 2em;
+  background-color: rgba(0, 0, 0, 0.685);
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 30px;
+  
+}
+.listaordenada{
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 10px;
+  border-radius: 20px;
+}
+.listanordenada{
+  height: fit-content;
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  background-color: rgba(0, 0, 0, 0.685);
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 30px;
+}
+
 *{
   box-sizing: border-box;
   margin: 0px;
@@ -144,6 +174,35 @@ dl dt {
 }
     
 @media screen and (max-width: 400px){
+  .tabla{
+      height: fit-content;
+      width: fit-content;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 10px;
+      
+  }
+  .listaordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .listanordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 15px;
+  }
           
   .content {
 position: absolute;
@@ -157,8 +216,15 @@ height: fit-content;
 }
 
 img{
-margin-top: 5vh;
-width: 18em;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 ol{
 font-size: 15px;
@@ -174,8 +240,10 @@ font-size: 20px;
 
 }
 .caja{
-width: 40%;
-margin-left: 0%;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-gap: 2em;
@@ -183,42 +251,69 @@ margin-top: 35%;
 
 }
 .myBtn {
-width: 80px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
-
-}
-.myBtn2 {
-width: 80px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
-
-}
-#myBtn {
-width: 80px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
+  width: 80px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+  }
+  .myBtn2 {
+  width: 80px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  background-color: black;
+  position: relative;
+  
+  }
+  #myBtn {
+  width: 80px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2%;
+  position: relative;
+  }
  }
  @media (min-width:400px) and (max-width: 494px) {
+  .tabla{
+      height: fit-content;
+      width: fit-content;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 10px;
+      
+  }
+  .listaordenada{
+      height: fit-content;
+      width: 100%;        margin: auto;
+      margin-top: 2em;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .listanordenada{
+      height: fit-content;
+      width: 100%;        margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+  }
      .content {
 position: absolute;
 top: 0;
@@ -230,8 +325,15 @@ text-shadow: 5px 5px 10px black;
 height: fit-content;
 }
 img{
-margin-top: 10vh;
-width: 21em;
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 ol{
 font-size: 20px;
@@ -246,17 +348,18 @@ font-size: 26px;
 
 }
 .caja{
-width: 40%;
-
-margin-left: 0%;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
-grid-gap: 2.5em;
-margin-top: 10%;
+grid-gap: 2em;
+margin-top: 35%;
 
 }
 .myBtn {
-width: 90px;
+width: 100px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -268,7 +371,7 @@ position: relative;
 
 }
 .myBtn2 {
-width: 90px;
+width: 100px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -280,7 +383,7 @@ position: relative;
 
 }
 #myBtn {
-width: 90px;
+width: 100px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -292,6 +395,36 @@ position: relative;
 }
  }
  @media (min-width:494px) and (max-width:680px){
+  .tabla{
+      height: fit-content;
+      width: fit-content;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 18px;
+      border-radius: 20px;
+      font-size: 15px;
+      
+  }
+  .listaordenada{
+      height: fit-content;
+      width: 100%;        
+      margin: auto;
+      margin-top: 2em;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .listanordenada{
+      height: fit-content;
+      width: 100%;        
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+  }
+
     *{
 box-sizing: border-box;
 margin: 0px;
@@ -317,10 +450,15 @@ text-shadow: 5px 5px 10px black;
 height: fit-content;
 }
 img{
-margin-left: 10%;
-width: 24em;
-margin-top: 7vh;
-
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 .content p{
 width: 80%;
@@ -340,7 +478,7 @@ padding-top: 50px;
 
 /* Style the button used to pause/play the video */
 #myBtn {
-width: 120px;
+width: 130px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -356,16 +494,18 @@ background: #ddd;
 color: black;
 }
 .caja{
-width: 30%;
-margin-left: 3em;
-margin-top: 35%;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
-grid-gap: 1em;
+grid-gap: 2em;
+margin-top: 35%;
 
 }
 .myBtn {
-width: 120px;
+width: 130px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -385,7 +525,7 @@ color: white;
 background:  rgba(0, 0, 0, 0.5);
 }
 .myBtn2 {
-width: 120px;
+width: 130px;
 font-size: 18px;
 padding: 10px;
 border: none;
@@ -408,6 +548,35 @@ background:  rgba(0, 0, 0, 0.5)
  }
  
 @media (min-width:680px) and (max-width:1000px){
+  .tabla{
+      height: fit-content;
+      width: fit-content;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+      
+  }
+  .listaordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .listanordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+  }
          
   *{
 box-sizing: border-box;
@@ -434,10 +603,15 @@ text-shadow: 5px 5px 10px black;
 height: fit-content;
 }
 img{
-margin-left: 10%;
-width: 25em;
-margin-top: 7vh;
-
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 .content p{
 width: 80%;
@@ -473,14 +647,14 @@ background: #ddd;
 color: black;
 }
 .caja{
-width: 30%;
-margin-left: 1em;
-margin-top: 35%;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-gap: 7em;
-padding: 30px;
-
+margin-top: 35%;
 
 }
 .myBtn {
@@ -526,6 +700,36 @@ background:  rgba(0, 0, 0, 0.5)
 }
 }
 @media (min-width:1000px) and (max-width:1050px) {
+  .tabla{
+      height: fit-content;
+      width: fit-content;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 25px;
+      
+  }
+  .listaordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .listanordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 20px;
+  }
+
 *{
 box-sizing: border-box;
 margin: 0px;
@@ -551,126 +755,15 @@ text-shadow: 5px 5px 10px black;
 height: fit-content;
 }
 img{
-margin-left: 10%;
-width: 40em;
-margin-top: 7vh;
-
-}
-.content p{
-width: 80%;
-
-margin-left: auto;
-margin-right: auto;
-font-size: 20px;
-}
-.primero{
- margin-top: 10%;
-}
-.content h1{
-font-size: 60px;
-text-align: center;
-padding-top: 50px;
-}
-
-/* Style the button used to pause/play the video */
-#myBtn {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-margin-top: 2%;
-position: relative;
-}
-
-#myBtn:hover {
-background: #ddd;
-color: black;
-}
-.caja{
-width: 30%;
-margin-left: 10em;
-margin-top: 35%;
-display: grid;
-grid-template-columns: auto auto auto;
-grid-gap: 7em;
-
-
-}
-.myBtn {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
-
-}
-.myBtn a{
-text-decoration: none;
-color: white;
-}
-
-.myBtn:hover {
-background:  rgba(0, 0, 0, 0.5);
-}
-.myBtn2 {
-width: 130px;
-font-size: 18px;
-padding: 10px;
-border: none;
-background: #000;
-color: #fff;
-cursor: pointer;
-background-color: black;
-position: relative;
-
-}
-
-.myBtn2 a{
-text-decoration: none;
-color: white;
-}
-
-.myBtn2:hover {
-background:  rgba(0, 0, 0, 0.5)
-}
-} 
-  @media (min-width:1050px) and (max-width:1100px){
-    *{
-box-sizing: border-box;
-margin: 0px;
-}
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-position: fixed;
-left: 0;
-min-height: 100%;
-min-width: 100%;
-
-}
-/* Add some content at the bottom of the video/page */
-.content {
-position: absolute;
-top: 0;
-background: rgba(0, 0, 0, 0.767);
-color:  rgb(201, 201, 201);
-width: 100%;
-padding: 50px;
-text-shadow: 5px 5px 10px black;
-height: fit-content;
-}
-img{
-margin-left: 10%;
-width: 50em;
-margin-top: 7vh;
-
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 .content p{
 width: 80%;
@@ -706,12 +799,167 @@ background: #ddd;
 color: black;
 }
 .caja{
-width: 30%;
-margin-left: 2em;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap: 7em;
 margin-top: 35%;
+
+}
+.myBtn {
+width: 200px;
+font-size: 18px;
+padding: 10px;
+border: none;
+background: #000;
+color: #fff;
+cursor: pointer;
+background-color: black;
+position: relative;
+
+}
+.myBtn a{
+text-decoration: none;
+color: white;
+}
+
+.myBtn:hover {
+background:  rgba(0, 0, 0, 0.5);
+}
+.myBtn2 {
+width: 200px;
+font-size: 18px;
+padding: 10px;
+border: none;
+background: #000;
+color: #fff;
+cursor: pointer;
+background-color: black;
+position: relative;
+
+}
+
+.myBtn2 a{
+text-decoration: none;
+color: white;
+}
+
+.myBtn2:hover {
+background:  rgba(0, 0, 0, 0.5)
+}
+} 
+  @media (min-width:1050px) and (max-width:1100px){
+      .tabla{
+          height: fit-content;
+          width: fit-content;
+          margin: auto;
+          margin-top: 2em;
+          background-color: rgba(0, 0, 0, 0.685);
+          padding: 10px;
+          border-radius: 20px;
+          font-size: 25px;
+          
+      }
+      .listaordenada{
+          height: fit-content;
+          width: 100%;
+          margin: auto;
+          margin-top: 2em;
+          padding: 10px;
+          border-radius: 20px;
+      }
+      .listanordenada{
+          height: fit-content;
+          width: 100%;
+          margin: auto;
+          margin-top: 2em;
+          background-color: rgba(0, 0, 0, 0.685);
+          padding: 10px;
+          border-radius: 20px;
+          font-size: 20px;
+      }
+
+    *{
+box-sizing: border-box;
+margin: 0px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+position: fixed;
+left: 0;
+min-height: 100%;
+min-width: 100%;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+position: absolute;
+top: 0;
+background: rgba(0, 0, 0, 0.767);
+color:  rgb(201, 201, 201);
+width: 100%;
+padding: 50px;
+text-shadow: 5px 5px 10px black;
+height: fit-content;
+}
+img{
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
+}
+.content p{
+width: 80%;
+
+margin-left: auto;
+margin-right: auto;
+font-size: 20px;
+}
+.primero{
+ margin-top: 10%;
+}
+.content h1{
+font-size: 60px;
+text-align: center;
+padding-top: 50px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+width: 200px;
+font-size: 18px;
+padding: 10px;
+border: none;
+background: #000;
+color: #fff;
+cursor: pointer;
+margin-top: 2%;
+position: relative;
+}
+
+#myBtn:hover {
+background: #ddd;
+color: black;
+}
+.caja{
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-gap: 10em;
+margin-top: 35%;
+
 }
 .myBtn {
 width: 200px;
@@ -757,6 +1005,35 @@ background:  rgba(0, 0, 0, 0.5)
   }
 
 @media (min-width:1100px) and (max-width:1280px) {
+  .tabla{
+      height: fit-content;
+      width: fit-content;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 30px;
+      
+  }
+  .listaordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .listanordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 30px;
+  }
     *{
 box-sizing: border-box;
 margin: 0px;
@@ -782,10 +1059,15 @@ text-shadow: 5px 5px 10px black;
 height: fit-content;
 }
 img{
-margin-left: 10%;
-width: 55em;
-margin-top: 7vh;
-
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 ol{
 font-size: 30px;
@@ -822,12 +1104,15 @@ background: #ddd;
 color: black;
 }
 .caja{
-width: 30%;
-margin-left: 2em;
-margin-top: 35%;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-gap: 10em;
+margin-top: 35%;
+
 }
 .myBtn {
 width: 200px;
@@ -872,7 +1157,34 @@ background:  rgba(0, 0, 0, 0.5)
 }
 }
  @media  (min-width: 1280px) and (max-width:1380px) {
-  
+  .tabla{
+      height: fit-content;
+      width: fit-content;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+      font-size: 30px;
+      
+  }
+  .listaordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      padding: 10px;
+      border-radius: 20px;
+  }
+  .listanordenada{
+      height: fit-content;
+      width: 100%;
+      margin: auto;
+      margin-top: 2em;
+      background-color: rgba(0, 0, 0, 0.685);
+      padding: 10px;
+      border-radius: 20px;
+  }
   *{
 box-sizing: border-box;
 margin: 0px;
@@ -898,10 +1210,15 @@ text-shadow: 5px 5px 10px black;
 height: fit-content;
 }
 img{
-margin-left: 10%;
-width: 65em;
-margin-top: 7vh;
-
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 .content p{
 width: 80%;
@@ -940,12 +1257,14 @@ background: #ddd;
 color: black;
 }
 .caja{
-width: 30%;
-margin-left: 2em;
-margin-top: 35%;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
 grid-gap: 17em;
+margin-top: 35%;
 
 }
 .myBtn {
@@ -1016,10 +1335,15 @@ text-shadow: 5px 5px 10px black;
 height: fit-content;
 }
 img{
-  margin-left: 10%;
-  width: 65em;
-  margin-top: 7vh;
-  
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0 10%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 50px;
+  margin: auto;
 }
 .content p{
 width: 80%;
@@ -1055,12 +1379,15 @@ background: #ddd;
 color: black;
 }
 .caja{
-width: 30%;
-margin-left: 2em;
-margin-top: 35%;
+  position: relative;
+  width: fit-content;
+  margin: 0 10%;
+  margin: auto;
 display: grid;
 grid-template-columns: auto auto auto;
-grid-gap: 20em;
+grid-gap: 17em;
+margin-top: 35%;
+
 }
 .myBtn {
 width: 200px;

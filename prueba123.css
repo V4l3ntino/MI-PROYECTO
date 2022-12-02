@@ -160,8 +160,15 @@
   }
   
   img{
-  margin-top: 5vh;
-  width: 18em;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   ol{
   font-size: 15px;
@@ -236,8 +243,15 @@
   height: fit-content;
   }
   img{
-  margin-top: 10vh;
-  width: 21em;
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   ol{
   font-size: 20px;
@@ -325,10 +339,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 24em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -445,10 +464,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 25em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -565,10 +589,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 40em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -684,10 +713,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 50em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -724,8 +758,8 @@
   }
   .caja{
     position: relative;
-    width: fit-content;
-    margin: 0 10%;
+    width: 100%;
+    justify-content: center;
     margin: auto;
     background-color: orange;
   margin-top: 35%;
@@ -802,10 +836,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 55em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   ol{
   font-size: 30px;
@@ -843,8 +882,8 @@
   }
   .caja{
     position: relative;
-    width: fit-content;
-    margin: 0 10%;
+    width: 100%;
+    justify-content: center;
     margin: auto;
     background-color: orange;
   margin-top: 35%;
@@ -921,10 +960,15 @@
   height: fit-content;
   }
   img{
-  margin-left: 10%;
-  width: 65em;
-  margin-top: 7vh;
-  
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 50px;
+    margin: auto;
   }
   .content p{
   width: 80%;
@@ -963,9 +1007,12 @@
   color: black;
   }
   .caja{
-  width: fit-content;
-  margin: 0 10%;
-  margin: auto;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    background-color: orange;
+  margin-top: 35%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 17em;

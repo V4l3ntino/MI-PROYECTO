@@ -156,6 +156,7 @@ opacity: 0.7;
 h1{
   font-size: 20px;
 }
+
 } 
 @media (min-width:400px) and (max-width:600px){
   .bg-text {
@@ -171,7 +172,7 @@ h1{
     height: fit-content;
     transform: translate(-50%, -50%);
     width: 80%;
-    padding: 20px;
+    padding: 30px;
     text-align: left;
   }
   h1{

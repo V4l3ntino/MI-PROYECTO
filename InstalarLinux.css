@@ -1319,6 +1319,7 @@ margin-top: 35%;
   #myVideo {
   position: fixed;
   left: 0;
+  filter: blur(20px);
   min-height: 100%;
   min-width: 100%;
 

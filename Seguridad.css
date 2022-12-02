@@ -10,6 +10,7 @@
     left: 0;
     min-height: 100%;
     min-width: 100%;
+    filter: blur(20px);
   
   }
   /* Add some content at the bottom of the video/page */
